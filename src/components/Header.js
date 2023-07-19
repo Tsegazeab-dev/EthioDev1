@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import './Hamburger'
+// import './Hamburger'
 import logo from '../images/green nature  illustration logo template social media (1).png'
 function Header() {
   return (
@@ -13,7 +13,7 @@ function Header() {
 
 <div className=''>
 <p className='text-xl font-serif font-bold text-center'>LEMLEM  ACADEMY</p>
-</div>
+</div>  
 
 <div className=''>
     <ul className='font-medium nav-link font-serif'>
