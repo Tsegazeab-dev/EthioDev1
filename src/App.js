@@ -5,6 +5,7 @@ import HomePage from "./components/Homepage/HomePage";
 import Banner from "./components/Banner";
 import Footer from "../src/components/Footer/Footer";
 import Header from "./components/Header";
+import Achievements from "./components"
 
 function App() {
   return (
