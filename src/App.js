@@ -3,7 +3,7 @@ import './css/bootstrap.css'
 import './css/styles.css'
 import HomePage from "./HomePage";
 import Banner from "./components/Banner";
-import Footer from "./components/Footer";
+import Footer from "../src/components/Footer/Footer";
 import Header from "./components/Header";
 
 function App() {
