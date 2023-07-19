@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer-wrapper{
+    background-color: #008000;
+    margin-top: 80px;
+    padding: 24px 12px;
+       color: white;    
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    margin-left: 56px;
+}
+.slogan{
+    margin-top: 24px;
+    width: 95%;
+    padding-left: 12px;
+}
+
+ul li a{
+    color: white;
+    /* text-decoration: none; */
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+.social-media li{
+color: black;
+display: flex;
+justify-content: space-between;
+}
+.social-media a{
+  margin-right: 10px;  
+}
+.social-media{
+  margin-top: 30px;
+  text-align: center;
+
+}
+@media(max-width:768px){
+    .slogan{
+        display: none;
+    }
+    .links{
+        display: none;
+    }
+    .logo img{
+        margin-left: 0;
+    }
+.officeHour h4,.officeHour h6{
+    display: none;
+}
+
+}
