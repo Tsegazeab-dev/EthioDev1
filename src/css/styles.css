@@ -194,5 +194,21 @@ img {
 .heloocurve {
   font-weight: 800;
   /* font-style:; */
-  color: red;
+  /* color: red; */
 }
+@media (max-width: 768px) {
+  .heloocurve {
+
+    text-align: justify;
+    margin-left: -100px;
+  }
+}
+
+@media (min-width: 992px) {
+.heloocurve {
+
+    text-align: justify;
+    margin-left: 80px;
+  }
+}
+

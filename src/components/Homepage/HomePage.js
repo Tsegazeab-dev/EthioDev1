@@ -21,6 +21,14 @@ function HomePage() {
                 <div className="title-wraper">Wellcome to </div>
                 <Mycomponent />
                 <Content />
+                {/* <a
+                  href="#"
+                  class="trend-w3l"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
+                  <span>Read More</span>
+                </a> */}
               </div>
             </div>
           </div>
