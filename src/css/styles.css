@@ -123,7 +123,7 @@ img {
   background-color: #165ca9;
   background-position: bottom;
   padding-top: 35px;
-  margin: 10px 90px;
+  margin: 100px 90px;
   background-size: auto;
 }
 
@@ -148,7 +148,7 @@ img {
 }
 .Mission {
   color: rgb(17, 82, 146);
-  margin-left: 20px;
+  margin-left: 5px 20px;
   font-weight: bold;
 }
 .Vission {
@@ -163,7 +163,8 @@ img {
 }
 .background {
   margin-left: 10px;
-  text-align: justify;
+  text-align:justify;
+  margin-bottom: 10px;
 }
 
 .Fifth-heghlight-wrapper left-side-container {
@@ -171,7 +172,7 @@ img {
 }
 
 /* for read more */
-.container {
+.container-fluid {
   text-align: justify;
 }
 
@@ -187,9 +188,9 @@ img {
 }
 .pback {
   text-align: justify;
-  margin: 20px;
-  font-size: larger;
-  font-style: oblique;
+  margin: 5px 20;
+  font-size:xx-large;
+  font-style:normal;
 }
 .heloocurve {
   font-weight: 800;
