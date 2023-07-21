@@ -11,7 +11,7 @@ function HomePage() {
           <div className="row">
             <div className="left-side-wrapper col-sm-12 col-md-6">
               <div className="left-side-container">
-                <div className="title-wraper">Head Office of the School</div>
+                {/* <div className="title-wraper">Head Office of the School</div> */}
 
                 <div className="links-wrapper"></div>
               </div>
