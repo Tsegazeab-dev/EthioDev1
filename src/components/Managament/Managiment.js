@@ -26,8 +26,9 @@ function Managiment() {
                   <p>The school management believes that the students are the bright future of our beautiful country Ethiopia.
                      The school works very hard to ensure that the students are provided with the quality education which will 
                      empower them to make the right choice.The school management encourages the students to participate actively
-                     in the different non curricular clubs formed in the school. In addition to the regular class the school management has put a system in place in which the students are taught to develop their social skills so that they will contribute to the society.</p>
+                     in the different non curricular clubs formed in the school. In addition to the regular class the school management has put a system in place in which the students are taught to develop their social skills so that they will contribute to the society.</p>               
              </div>
+             <img className='school_stu'></img> 
          </div>
     </div>
   )
