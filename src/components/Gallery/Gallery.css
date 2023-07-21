@@ -1,0 +1,150 @@
+
+.gallery{
+    /* background-image: url(./image/IMG_20230704_100922_860.jpg);
+    background-repeat: no-repeat;
+    /* width: 100px; */
+    /* object-fit: contain;
+    margin: 0 10px;
+    margin-bottom: px;
+    padding-bottom: 0%;
+    width: 1510px;
+    height: 400px;   */
+}
+.one{
+    display: flex;
+}
+.class{
+   
+    background-image: url( ./image/photo_2023-07-21_13-34-41.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 390px;
+    margin-left: 10px;
+    margin-top: 10px;
+      
+}
+
+.kghs{
+    background-image: url(./image/photo_2023-07-21_13-34-31.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 390px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cdh_2023{
+    background-image: url(./image/photo_2023-07-21_13-33-37.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 390px;
+    margin-left: 10px;
+    margin-top: 10px; 
+}
+
+.lemlemms{
+    background-image: url(./image/photo_2023-07-04_16-44-40.jpg);
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 390px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.lemlemha{
+    background-image: url(./image/IMG_20230704_101401_734\ \(3\).jpg);
+    background-repeat: no-repeat;
+    width: 220px;
+    height:390px;
+    margin-left: 10px; 
+    margin-top: 10px; 
+}
+.kglem{
+    background-image: url(./image/IMG_20230704_102836_778.jpg);
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 390px;
+    margin-left: 10px; 
+    margin-top: 10px; 
+}
+
+
+.lemacal{
+    background-image: url(./image/lemlem\ at\ bo.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 370px;
+    margin-left: 10px; 
+    margin-top: 10px;
+}
+.lemahabesha{
+    background-image: url(./image/lemlem_ca.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 370px;
+    margin-left: 10px; 
+    margin-top: 10px; 
+}
+.lemahabe{
+    background-image: url(./image/IMG_20230704_101925_341.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 370px;
+    margin-left: 10px; 
+    margin-top: 10px; 
+}
+.lemkg_1{
+    background-image: url(./image/photo_2023-07-21_12-56-18\ \(3\).jpg);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 390px;
+    margin-left: 10px; 
+    margin-top: 10px;
+}
+.lemachi{
+    background-image: url(./image/photo_2023-07-21_12-56-18\ \(1\).jpg);
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 390px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.lemacha{
+    background-image: url(./image/photo_2023-07-21_12-56-18\ \(2\).jpg);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 390px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.kggallery{
+    background-image: url(./image/IMG_20230704_100349_833.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 390px;
+    margin-left: 10px;
+    margin-top: 10px;
+     
+}
+@media (max-width: 768px) {
+    .one{
+        display:inline;
+    }
+    .lemlemha{
+    display: none;
+    }
+    .lemcogalar{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .lemlemms{
+        width: 500px;
+        height: 390px;
+    
+    }
+    .kglem{
+        width: 500px;
+        height: 390px;
+    }
+    .lemkg_1{
+      display: none;
+    }
+  }
