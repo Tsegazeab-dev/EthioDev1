@@ -48,7 +48,7 @@ function Footer() {
 					<div className="social-media  ">
 						<a href="#" target="_blank">
 							<i className="text-white">
-								<FacebookIcon/>
+								<FacebookIcon />
 							</i>
 						</a>
 						<a href="#" target="_blank">
@@ -61,7 +61,7 @@ function Footer() {
 								<TwitterIcon />
 							</i>
 						</a>
-						<a href="#" target="_blank">
+						<a href="https://t.me/LemHS" target="_blank">
 							<i className="text-white">
 								<TelegramIcon />
 							</i>

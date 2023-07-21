@@ -18,11 +18,12 @@ function Header() {
 
 			<div className="">
 				<ul className="font-medium nav-link font-serif">
+					
 					<li className="my-4 cursor-pointer nav-item ">
 						<a href="#">Management</a>
 					</li>
 					<li className="my-4 cursor-pointer nav-item ">
-						<a href="#" >Achievement</a>
+						<a href="#">Achievement</a>
 					</li>
 					<li className="my-4 cursor-pointer nav-item ">
 						<a href="#">Gallery</a>
