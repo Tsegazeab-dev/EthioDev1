@@ -1,8 +1,7 @@
 import "./App.css";
 import './css/bootstrap.css'
 import './css/styles.css'
-// import { Routes,Route } from 'react-router-dom';
-// import {BrowserRouter as Router}  from "react-router-dom";
+
 import HomePage from "./components/Homepage/HomePage";
 import Banner from "./components/Banner";
 import Managiment from "./components/Managament/Managiment"
@@ -15,11 +14,11 @@ function App() {
   return (
     <div>
       <Header />
-      <Banner />
-      <HomePage />
-      <Managiment />
-      <Achievements />
-      <Gallery />
+      {/* <Banner /> */}
+      {/* <HomePage /> */}
+      {/* <Managiment /> */}
+      {/* <Achievements /> */}
+      {/* <Gallery /> */}
       <Footer />
       
 

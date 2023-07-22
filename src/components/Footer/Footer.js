@@ -23,9 +23,9 @@ function Footer() {
 				</p>
 			</div>
 
-			<div className="links">
+			<div className="links ">
 				<p className=" text-xl font-serif font-bold pl-8 ">Go to</p>
-				<ul className="space-y-2">
+				<ul className="space-y-">
 					<li className=" flex space-x-2 ">
 						<ArrowRightCircleIcon className="h-6 " />
 						<a href="">school management</a>
@@ -70,9 +70,10 @@ function Footer() {
 				</div>
 			</div>
 			<div className="space-y-1   ">
+				
 				<h3 className="text-xl font-serif font-bold pl-14 mb-3">Contact us</h3>
 				<div className="flex space-x-2">
-					<MapPinIcon className="h-6 " />
+					<MapPinIcon className="h-6 " /> 
 					<p>Ferensay, Addis Ababa, Ethiopia</p>
 				</div>
 				<div className="flex space-x-2">
