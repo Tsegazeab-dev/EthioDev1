@@ -12,7 +12,7 @@ function Header() {
 
 			<div className="">
 				<p className="text-xl font-serif font-bold text-center">
-					LEMLEM ACADEMY
+					LEMLEM SCHOOL
 				</p>
 			</div>
 
@@ -20,13 +20,13 @@ function Header() {
 				<ul className="font-medium nav-link font-serif">
 					
 					<li className="my-4 cursor-pointer nav-item ">
-						<a href="#">Management</a>
+						<a href="./Managiment">Management</a>
 					</li>
 					<li className="my-4 cursor-pointer nav-item ">
 						<a href="#">Achievement</a>
 					</li>
 					<li className="my-4 cursor-pointer nav-item ">
-						<a href="#">Gallery</a>
+						<a href="./Gallery">Gallery</a>
 					</li>
 				</ul>
 			</div>
@@ -37,6 +37,7 @@ function Header() {
 				<span className="bar"></span>
 			</div>
 		</header>
+		
 	);
 }
 

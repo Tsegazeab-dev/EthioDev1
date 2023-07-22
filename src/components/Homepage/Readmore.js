@@ -7,7 +7,7 @@ const ReadMore = ({ children }) => {
   };
   return (
     <p className="text">
-      {isReadMore ? text.slice(0, 348) : text}
+      {isReadMore ? text.slice(0, 500) : text}
       <span onClick={toggleReadMore} className="read-or-hide">
         {isReadMore ? "...Read more" : " Show less"}
       </span>
@@ -17,26 +17,25 @@ const ReadMore = ({ children }) => {
 
 const Content = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <h2>
         <ReadMore>
-          Lemlem school was established in 1996 the school has three campuses;
-          in Addis Ababa, Axum, Adwa. Currently the school has more than 153
-          teaching, administrative and line staff. They are dedicated in
-          providing quality education in an environment which emphasize on
-          self-discipline, academic excellence, creativity and pleasant social
-          communications. The school`s primary objective is to provide
+          Lemlem school was established in 1996. The school has three campuses;
+          in Addis Ababa, Axum, Adwa. Currently the wchool has more than 153
+          teaching, administrativeand line staff. They are dedicated in
+          providing quality education in an environment which emphasize on self
+          discipline, academic excellence, creative and pleasant social
+          communications. The school's primary objective is to provide
           standardized and quality education to the nearby community with
-          minimal fee and for free for those who cannot afford to pay the
-          monthly fee. Currently, the school is rendering the service for very
-          minimal fee. Moreover the school is teaching female students for free
-          in three campuses. Since its establishment the school has been
+          minimal fee and for free for those who can not afford to pay the
+          monthly fee. Moreover the school is teaching female students fro free
+          in the three campuses. Since its establishment the schoolhas been
           gradually growing in size and in capital. The number of students was
-          only 45 in the year of establishment and currently has increased to
-          more than 1700 students. The quality of education and the service it
-          provides has also been improved considerably through these years. In
-          addition, in collaboration with different NGOs and individuals the
-          school has helped three students to get medical assistance abroad.
+          only in the year of establishment and currently has increased to more
+          tha 1700 students. The qualityof education and service it provides has
+          alsobeen improved considerably throughthese years. In addition, in
+          collaboration with different NGOs and individuals the schoolhas helped
+          three students to get medical assistance abroad.
         </ReadMore>
       </h2>
     </div>
