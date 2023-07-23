@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../../images/Logo.jpeg";
+import logo from "../../images/lemlemLogo.jpg";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
@@ -61,7 +61,7 @@ function Footer() {
 								<TwitterIcon />
 							</i>
 						</a>
-						<a href="#" target="_blank">
+						<a href="https://t.me/LemHS" target="_blank">
 							<i className="text-white">
 								<TelegramIcon />
 							</i>
