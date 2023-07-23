@@ -1,0 +1,45 @@
+ .countiner-style{
+    height: 700px;
+    position: relative;
+} 
+ .descriotion{
+    width: 600px;
+    position: absolute;
+    z-index: 999;
+    color: rgb(242, 245, 247);
+    top: 20%;
+    left:20%;
+    
+}
+.descriotion h1{
+    font-size: 46;
+     text-align: center; 
+ }
+.descriotion p{
+    font-size: 22px;
+}
+.carousel-boult{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.carousel-boult span{
+    width: 45px;
+    height: 12px;
+    background-color:#06224b;
+    margin-left: 10px;
+    border-radius:10px ;
+    cursor: pointer;
+    box-shadow: 3px 2px 2px rgba(111, 106, 106, 0.338);
+}
+.transparent-background{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(255,0,0,0),#06224b);
+}  
+
+  

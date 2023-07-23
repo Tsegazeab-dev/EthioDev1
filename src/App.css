@@ -1,9 +1,11 @@
 
-.App {
+.APP{
   text-align: center;
+  height: 100vh;
+  background-color: rgb(205, 132, 42);
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -36,4 +38,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
