@@ -48,7 +48,7 @@ function Footer() {
 					<div className="social-media  ">
 						<a href="#" target="_blank">
 							<i className="text-white">
-								<FacebookIcon/>
+								<FacebookIcon />
 							</i>
 						</a>
 						<a href="#" target="_blank">
