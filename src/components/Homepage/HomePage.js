@@ -1,6 +1,7 @@
 import React from "react";
 import Content from "./Readmore";
 import Mycomponent from "./Mycomponent";
+import "./bootstrap.css";
 import "./Homepage.css";
 
 // import ReactCurvedText from "react-curved-text";
@@ -69,7 +70,7 @@ function HomePage() {
       <section className="flexx">
         <div class="vertical-row2"></div>
         <div>
-          <h2 className="Objectve"> Objective</h2>
+          <h2 className="Objectve"> OBJECTIVE</h2>
           <h4 class="pbacko">
             Working to meet the demand of the government socity and parents in
             order to build capable citizens, who keep their promises identify

@@ -1,6 +1,4 @@
 import "./App.css";
-import "./css/bootstrap.css";
-// import "./css/styles.css";
 import HomePage from "./components/Homepage/HomePage";
 // import Banner from "./components/Banner";
 // import Managiment from "./components/Managament/Managiment"
