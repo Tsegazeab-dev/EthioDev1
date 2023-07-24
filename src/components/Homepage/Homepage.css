@@ -113,7 +113,7 @@ a {
 
 /* for read more */
 .container-fluid {
-  text-align: left;
+  text-align:justify;
 }
 
 .text {
@@ -197,6 +197,9 @@ a {
     text-align: justify;
     margin-left: -100px;
   }
+  .container-fluid {
+  text-align:left;
+}
   .vertical-row2 {
     height: 200px;
     width: 2px;
@@ -252,5 +255,10 @@ a {
     margin: 10px 0px;
     font-style: normal;
     font-family: "Raleway";
+  }
+  .vertical-row {
+    height:fit-content;
+    width: 2px;
+    margin-top: 10px;
   }
 }

@@ -34,7 +34,7 @@ function HomePage() {
               <div className="left-side-container">
                 <ul className="vission">
                   <li>
-                    <h2 className="Mission">VISION</h2>
+                    <h2 className="Mission">VISSION</h2>
                     <h4 className="pback">
                       Our Vission is to offer young chldren an advanced
                       education related with scintific and technological
