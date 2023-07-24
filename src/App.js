@@ -3,15 +3,15 @@ import "./css/bootstrap.css";
 import "./css/styles.css";
 
 import HomePage from "./components/Homepage/HomePage";
-import Banner from "./components/Banner";
-import Managiment from "./components/Managament/Managiment"
+// import Banner from "./components/Banner";
+// import Managiment from "./components/Managament/Managiment"
 
 import Managiment from "./components/Managament/Managiment";
 
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "../src/components/Footer/Footer";
 import Header from "./components/Header/Header";
-import Achievements from "./components/Achievements";
+import Achievements from "./components/Achievements/Achievements";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
