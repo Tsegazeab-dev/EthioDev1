@@ -18,24 +18,19 @@ function HomePage() {
               <div className="right-side-container">
                 <div className="title-wraper">WELCOME TO </div>
                 <Mycomponent />
+                <div class="vertical-row"></div>
                 <Content />
-                {/* <a
-                  href="#"
-                  class="trend-w3l"
-                  data-toggle="modal"
-                  data-target="#myModal"
-                >
-                  <span>Read More</span>
-                </a> */}
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section className="home2-heghlight-wrapper">
         <div className="container-fluid">
           <div className="row">
             <div className="left-side-wrapper col-sm-12 col-md-6">
+              <div class="vertical-mission"></div>
               <div className="left-side-container">
                 <ul className="vission">
                   <li>
@@ -48,6 +43,7 @@ function HomePage() {
                       and hardworking citizens
                     </h4>
                   </li>
+                  <div class="vertical-mission"></div>
                   <li>
                     <h2 className="Mission">MISSION</h2>
                     <h4 className="pback">
@@ -61,15 +57,6 @@ function HomePage() {
                       sitizen.
                     </h4>
                   </li>
-                  <li>
-                    <h2 className="Objectve"> Objective</h2>
-                    <h4 className="pback">
-                      Working to meet the demand of the government socity and
-                      parents in order to build capable citizens, who keep their
-                      promises identify and recognize Ethiopia's beauty, unity
-                      and history.
-                    </h4>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -77,6 +64,17 @@ function HomePage() {
               <div className="right-side-container"></div>
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        {/* <div class="vertical-row2"></div> */}
+        <div>
+          <h2 className="Objectve"> Objective</h2>
+          <h4 className="pbacko">
+            Working to meet the demand of the government socity and parents in
+            order to build capable citizens, who keep their promises identify
+            and recognize Ethiopia's beauty, unity and history.
+          </h4>
         </div>
       </section>
     </div>

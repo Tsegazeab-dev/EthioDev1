@@ -1,4 +1,3 @@
-/* dd, [15-Jul-23 15:18] */
 /* General Styling */
 body {
   font-family: "Montserrat", sans-serif;
@@ -38,12 +37,7 @@ a {
   letter-spacing: -0.04em;
   /* text-align: left; */
 }
-.title-wraper.bold {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1.15em;
-  letter-spacing: -0.04em;
-}
+
 .right-side-wrapper .title-wraper {
   max-width: 280px;
   margin: 0 auto;
@@ -54,7 +48,7 @@ a {
   background-image: url("../../images/banner2LL2.jpg");
   background-color: #000;
   padding-top: 35px;
-  margin: 100px 70px;
+  margin: 100px 20px;
   background-size: cover;
 }
 .home-heghlight-wrapper .right-side-wrapper .right-side-container {
@@ -77,8 +71,8 @@ a {
   background-color: #165ca9;
   background-position: bottom;
   padding-top: 35px;
-  margin: 100px 90px;
-  background-size: auto;
+  margin: 30px 70px;
+  background-size: cover;
 }
 
 .home-heghlight-wrapper .right-side-wrapper .title-wraper {
@@ -103,8 +97,9 @@ a {
 }
 .Objectve {
   color: rgb(18, 68, 119);
-  margin-left: 20px;
+  margin-left: 70px;
   font-weight: bold;
+  text-align: center;
 }
 .background {
   margin-left: 10px;
@@ -118,7 +113,7 @@ a {
 
 /* for read more */
 .container-fluid {
-  text-align: justify;
+  text-align: left;
 }
 
 .text {
@@ -136,23 +131,125 @@ a {
   margin: 5px 20;
   /* font-size: xx-large; */
   font-style: normal;
-font-family: 'Raleway';
+  font-family: "Raleway";
+}
+.pbacko{
+  text-align: left;
+  margin: 10px 300px;
+  /* font-size: xx-large; */
+  font-style: normal;
+  font-family: "Raleway";
 }
 .heloocurve {
   font-weight: 700;
-  /* font-style:; */
-  /* color: red; */
+  animation: animate 6s linear infinite;
+  color: #01fe87;
+  -webkit-text-stroke: 0vw #383d52;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+
 }
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+.vertical-row {
+  float: left;
+  height: 350px;
+  width: 3px; /* edit this if you want */
+  background-color: #06224b;
+  margin-top: -9px;
+}
+.vertical-row2 {
+  float: right;
+  height: 100px;
+  width: 3px; 
+  background-color: #06224b;
+  margin-top: 40px;
+  margin-right: 300px;
+
+}
+.vertical-mission {
+  float: right;
+  height: 200px;
+  width: 3px; /* edit this if you want */
+  /* background-color: #008000; */
+  background-color: #06224b;
+  margin-top: 45px;
+}
+
+
 @media (max-width: 768px) {
   .heloocurve {
     text-align: justify;
     margin-left: -100px;
   }
+  .vertical-row2 {
+    height: 200px;
+    width: 2px;
+  }
+  .vertical-row {
+    height: 400px;
+    width: 2px;
+    margin-top: 10px;
+  }
+
+  .home-heghlight-wrapper .left-side-container {
+  background-image: url("../../images/banner2LL2.jpg");
+  background-color: #000;
+  padding-top: 35px;
+  margin: 10px -40px;
+  background-size: cover;
 }
 
-@media (min-width: 992px) {
+.home2-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../../images/culture.jpg");
+  background-color: #165ca9;
+  background-position: bottom;
+  padding-top: 35px;
+  margin: 30px 10px;
+  background-size: cover;
+}
+
+.pbacko{
+  text-align: left;
+  margin: 10px 30px;
+  /* font-size: xx-large; */
+  font-style: normal;
+  font-family: "Raleway";
+}
+.vertical-row2 {
+    display: none;
+  }
+  .vertical-mission {
+  height: 200px;
+  width: 2px; 
+}
+}
+
+@media (min-width: 768px) {
   .heloocurve {
     text-align: justify;
     margin-left: 80px;
   }
+  .vertical-row2 {
+    height: 200px;
+    width: 2px;
+  }
+  .pbacko{
+  text-align: left;
+  margin: 10px 0px;
+  /* font-size: xx-large; */
+  font-style: normal;
+  font-family: "Raleway";
 }
+}
+
