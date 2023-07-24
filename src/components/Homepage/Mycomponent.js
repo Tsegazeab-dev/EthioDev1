@@ -5,10 +5,10 @@ const Mycomponent = () => {
       <ReactCurvedText
         width={1000}
         height={150}
-        cx={210}
-        cy={200}
+        cx={170}
+        cy={210}
         rx={100}
-        ry={170}
+        ry={180}
         startOffset={100}
         text="LEMLEM SCHOOL"
         reversed={true}

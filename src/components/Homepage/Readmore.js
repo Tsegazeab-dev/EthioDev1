@@ -7,7 +7,7 @@ const ReadMore = ({ children }) => {
   };
   return (
     <p className="text">
-      {isReadMore ? text.slice(0, 500) : text}
+      {isReadMore ? text.slice(0, 400) : text}
       <span onClick={toggleReadMore} className="read-or-hide">
         {isReadMore ? "...Read more" : " Show less"}
       </span>
@@ -18,7 +18,7 @@ const ReadMore = ({ children }) => {
 const Content = () => {
   return (
     <div className="container-fluid">
-      <h2>
+      <h4>
         <ReadMore>
           Lemlem school was established in 1996. The school has three campuses;
           in Addis Ababa, Axum, Adwa. Currently the wchool has more than 153
@@ -37,7 +37,7 @@ const Content = () => {
           collaboration with different NGOs and individuals the schoolhas helped
           three students to get medical assistance abroad.
         </ReadMore>
-      </h2>
+      </h4>
     </div>
   );
 };

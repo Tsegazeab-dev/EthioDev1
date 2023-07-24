@@ -6,16 +6,6 @@ body {
 a {
   color: #06c;
 }
-img {
-  /* max-width: 100%; */
-}
-.white {
-  color: #fff;
-}
-.black {
-  color: #1d1d1f;
-}
-
 .left-side-container {
   min-height: 515px;
   background-position: center;
@@ -41,38 +31,6 @@ img {
   padding-right: 0px;
   padding-left: 0px;
 }
-.links-wrapper ul {
-  list-style: none;
-}
-
-.brief-description {
-  font-size: 2em;
-}
-
-.description-wraper.white {
-  color: white;
-}
-.links-wrapper {
-  padding: 15px 0;
-}
-.links-wrapper ul li {
-  display: inline-block;
-  padding-right: 20px;
-}
-.links-wrapper ul li a {
-  color: #06c;
-  text-decoration: none;
-  font-size: 21px;
-}
-.links-wrapper ul li a:hover {
-  color: #000;
-}
-.links-wrapper ul li a:after {
-  font-family: "FontAwesome";
-  font-weight: 900;
-  content: "\f105";
-  padding-left: 10px;
-}
 .title-wraper {
   font-weight: 600;
   font-size: 30px;
@@ -90,20 +48,16 @@ img {
   max-width: 280px;
   margin: 0 auto;
 }
-.description-wrapper {
-  font-size: 26px;
-  padding: 10px 0;
-}
 
 /* Fourth section */
-.fourth-heghlight-wrapper .left-side-container {
-  background-image: url("../images/banner2LL2.jpg");
+.home-heghlight-wrapper .left-side-container {
+  background-image: url("../../images/banner2LL2.jpg");
   background-color: #000;
   padding-top: 35px;
-  margin: 50px 70px;
+  margin: 100px 70px;
   background-size: cover;
 }
-.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+.home-heghlight-wrapper .right-side-wrapper .right-side-container {
   background-color: white;
   background-position: bottom;
   padding-top: 35px;
@@ -112,14 +66,14 @@ img {
   background-size: auto;
 }
 
-.Fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+.home2-heghlight-wrapper .left-side-wrapper .left-side-container {
   background-color: white;
   padding-top: 35px;
   margin: 0 0 10px 0;
   background-size: cover;
 }
-.Fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
-  background-image: url("../images/culture.jpg");
+.home2-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../../images/culture.jpg");
   background-color: #165ca9;
   background-position: bottom;
   padding-top: 35px;
@@ -127,20 +81,11 @@ img {
   background-size: auto;
 }
 
-.links-wrapper.white li a {
-  color: black;
-}
-.fourth-heghlight-wrapper .right-side-wrapper .title-wraper {
+.home-heghlight-wrapper .right-side-wrapper .title-wraper {
   max-width: 380px;
 }
 
-/*Media Query*/
-
-/*fourth section*/
-/* .fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
-  margin: 10px 5px 5px 10px;
-} */
-.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+.home-heghlight-wrapper .right-side-wrapper .right-side-container {
   margin: 10px 10px 5px 5px;
 }
 .title-wraper.bold {
@@ -163,11 +108,11 @@ img {
 }
 .background {
   margin-left: 10px;
-  text-align:justify;
+  text-align: justify;
   margin-bottom: 10px;
 }
 
-.Fifth-heghlight-wrapper left-side-container {
+.home2-heghlight-wrapper left-side-container {
   margin-left: 200px;
 }
 
@@ -187,29 +132,27 @@ img {
   font-weight: bold;
 }
 .pback {
-  text-align: justify;
+  text-align: left;
   margin: 5px 20;
-  font-size:xx-large;
-  font-style:normal;
+  /* font-size: xx-large; */
+  font-style: normal;
+font-family: 'Raleway';
 }
 .heloocurve {
-  font-weight: 800;
+  font-weight: 700;
   /* font-style:; */
   /* color: red; */
 }
 @media (max-width: 768px) {
   .heloocurve {
-
     text-align: justify;
     margin-left: -100px;
   }
 }
 
 @media (min-width: 992px) {
-.heloocurve {
-
+  .heloocurve {
     text-align: justify;
     margin-left: 80px;
   }
 }
-

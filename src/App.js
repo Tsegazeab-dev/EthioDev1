@@ -1,6 +1,5 @@
 import "./App.css";
 import './css/bootstrap.css'
-import './css/styles.css'
 // import { Routes,Route } from 'react-router-dom';
 // import {BrowserRouter as Router}  from "react-router-dom";
 import HomePage from "./components/Homepage/HomePage";
