@@ -1,0 +1,264 @@
+/* General Styling */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+.left-side-container {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.right-side-container {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.left-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* dd, [15-Jul-23 15:18] */
+.right-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.title-wraper {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+  /* text-align: left; */
+}
+
+.right-side-wrapper .title-wraper {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+/* Fourth section */
+.home-heghlight-wrapper .left-side-container {
+  background-image: url("../../images/banner2LL2.jpg");
+  background-color: #000;
+  padding-top: 35px;
+  margin: 100px 20px;
+  background-size: cover;
+}
+.home-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-color: white;
+  background-position: bottom;
+  padding-top: 35px;
+  padding: 20px;
+  margin: 0 0 10px 0;
+  background-size: auto;
+}
+
+.home2-heghlight-wrapper .left-side-wrapper .left-side-container {
+  background-color: white;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: cover;
+}
+.home2-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../../images/culture.jpg");
+  background-color: #165ca9;
+  background-position: bottom;
+  padding-top: 35px;
+  margin: 30px 70px;
+  background-size: cover;
+}
+
+.home-heghlight-wrapper .right-side-wrapper .title-wraper {
+  max-width: 380px;
+}
+
+.home-heghlight-wrapper .right-side-wrapper .right-side-container {
+  margin: 10px 10px 5px 5px;
+}
+.title-wraper.bold {
+  font-size: 56px;
+}
+.Mission {
+  color: rgb(17, 82, 146);
+  margin-left: 5px 20px;
+  font-weight: bold;
+}
+.Vission {
+  color: rgb(18, 77, 136);
+  margin-left: 20px;
+  font-weight: bold;
+}
+.Objectve {
+  color: rgb(18, 68, 119);
+  margin-left: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+.background {
+  margin-left: 10px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.home2-heghlight-wrapper left-side-container {
+  margin-left: 200px;
+}
+
+/* for read more */
+.container-fluid {
+  text-align:justify;
+}
+
+.text {
+  display: inline;
+  width: 100%;
+}
+
+.read-or-hide {
+  color: rgb(20, 8, 121);
+  cursor: pointer;
+  font-weight: bold;
+}
+.pback {
+  text-align: left;
+  margin: 5px 20;
+  /* font-size: xx-large; */
+  font-style: normal;
+  font-family: "Raleway";
+}
+.pbacko {
+  text-align: left;
+  font-style: normal;
+  font-family: "Raleway";
+  margin: 30px 30px;
+}
+.heloocurve {
+  font-weight: 700;
+  animation: animate 6s linear infinite;
+  color: #01fe87;
+  -webkit-text-stroke: 0vw #383d52;
+  overflow: hidden;
+}
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+.vertical-row {
+  float: left;
+  height: 350px;
+  width: 3px; /* edit this if you want */
+  background-color: #06224b;
+  margin-top: -9px;
+}
+.vertical-row2 {
+  float: left;
+  height: 70px;
+  width: 6px;
+  background-color: #06224b;
+  margin: 50px 30px;
+}
+.vertical-row3 {
+  float: left;
+  height: 70px;
+  width: 6px;
+  background-color: #06224b;
+  margin: 50px 100px;
+}
+.flexx {
+  display: flex;
+}
+
+.vertical-mission {
+  float: right;
+  height: 200px;
+  width: 3px; /* edit this if you want */
+  /* background-color: #008000; */
+  background-color: #06224b;
+  margin-top: 45px;
+}
+
+@media (max-width: 768px) {
+  .heloocurve {
+    text-align: justify;
+    margin-left: -100px;
+  }
+  .container-fluid {
+  text-align:left;
+}
+  .vertical-row2 {
+    height: 200px;
+    width: 2px;
+  }
+  .vertical-row3 {
+    display: none;
+  }
+  .vertical-row {
+    height: 400px;
+    width: 2px;
+    margin-top: 10px;
+  }
+
+  .home-heghlight-wrapper .left-side-container {
+    background-image: url("../../images/banner2LL2.jpg");
+    background-color: #000;
+    padding-top: 35px;
+    margin: 10px -40px;
+    background-size: cover;
+  }
+
+  .home2-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../../images/culture.jpg");
+    background-color: #165ca9;
+    background-position: bottom;
+    padding-top: 35px;
+    margin: 30px 10px;
+    background-size: cover;
+  }
+
+  .pbacko {
+    text-align: left;
+    margin: 10px 30px;
+    /* font-size: xx-large; */
+    font-style: normal;
+    font-family: "Raleway";
+  }
+
+  .vertical-mission {
+    height: 200px;
+    width: 2px;
+  }
+}
+
+@media (min-width: 768px) {
+  .heloocurve {
+    text-align: justify;
+    margin-left: 80px;
+  }
+
+  .pbacko {
+    text-align: left;
+    margin: 10px 0px;
+    font-style: normal;
+    font-family: "Raleway";
+  }
+  .vertical-row {
+    height:fit-content;
+    width: 2px;
+    margin-top: 10px;
+  }
+}
