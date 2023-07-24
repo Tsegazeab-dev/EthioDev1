@@ -133,12 +133,11 @@ a {
   font-style: normal;
   font-family: "Raleway";
 }
-.pbacko{
+.pbacko {
   text-align: left;
-  margin: 10px 300px;
-  /* font-size: xx-large; */
   font-style: normal;
   font-family: "Raleway";
+  margin: 30px 30px;
 }
 .heloocurve {
   font-weight: 700;
@@ -146,8 +145,6 @@ a {
   color: #01fe87;
   -webkit-text-stroke: 0vw #383d52;
   overflow: hidden;
-  animation: animate 6s linear infinite;
-
 }
 @keyframes animate {
   0%,
@@ -169,14 +166,23 @@ a {
   margin-top: -9px;
 }
 .vertical-row2 {
-  float: right;
-  height: 100px;
-  width: 3px; 
+  float: left;
+  height: 70px;
+  width: 6px;
   background-color: #06224b;
-  margin-top: 40px;
-  margin-right: 300px;
-
+  margin: 50px 30px;
 }
+.vertical-row3 {
+  float: left;
+  height: 70px;
+  width: 6px;
+  background-color: #06224b;
+  margin: 50px 100px;
+}
+.flexx {
+  display: flex;
+}
+
 .vertical-mission {
   float: right;
   height: 200px;
@@ -185,7 +191,6 @@ a {
   background-color: #06224b;
   margin-top: 45px;
 }
-
 
 @media (max-width: 768px) {
   .heloocurve {
@@ -196,6 +201,9 @@ a {
     height: 200px;
     width: 2px;
   }
+  .vertical-row3 {
+    display: none;
+  }
   .vertical-row {
     height: 400px;
     width: 2px;
@@ -203,36 +211,34 @@ a {
   }
 
   .home-heghlight-wrapper .left-side-container {
-  background-image: url("../../images/banner2LL2.jpg");
-  background-color: #000;
-  padding-top: 35px;
-  margin: 10px -40px;
-  background-size: cover;
-}
-
-.home2-heghlight-wrapper .right-side-wrapper .right-side-container {
-  background-image: url("../../images/culture.jpg");
-  background-color: #165ca9;
-  background-position: bottom;
-  padding-top: 35px;
-  margin: 30px 10px;
-  background-size: cover;
-}
-
-.pbacko{
-  text-align: left;
-  margin: 10px 30px;
-  /* font-size: xx-large; */
-  font-style: normal;
-  font-family: "Raleway";
-}
-.vertical-row2 {
-    display: none;
+    background-image: url("../../images/banner2LL2.jpg");
+    background-color: #000;
+    padding-top: 35px;
+    margin: 10px -40px;
+    background-size: cover;
   }
+
+  .home2-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../../images/culture.jpg");
+    background-color: #165ca9;
+    background-position: bottom;
+    padding-top: 35px;
+    margin: 30px 10px;
+    background-size: cover;
+  }
+
+  .pbacko {
+    text-align: left;
+    margin: 10px 30px;
+    /* font-size: xx-large; */
+    font-style: normal;
+    font-family: "Raleway";
+  }
+
   .vertical-mission {
-  height: 200px;
-  width: 2px; 
-}
+    height: 200px;
+    width: 2px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -240,16 +246,11 @@ a {
     text-align: justify;
     margin-left: 80px;
   }
-  .vertical-row2 {
-    height: 200px;
-    width: 2px;
-  }
-  .pbacko{
-  text-align: left;
-  margin: 10px 0px;
-  /* font-size: xx-large; */
-  font-style: normal;
-  font-family: "Raleway";
-}
-}
 
+  .pbacko {
+    text-align: left;
+    margin: 10px 0px;
+    font-style: normal;
+    font-family: "Raleway";
+  }
+}

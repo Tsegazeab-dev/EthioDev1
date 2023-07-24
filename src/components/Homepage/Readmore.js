@@ -20,7 +20,7 @@ const Content = () => {
     <div className="container-fluid">
       <h4>
         <ReadMore>
-          Lemlem school was established in 1996. The school has three campuses;
+          Lemlem school was established in 1996. The school has three campuses; 
           in Addis Ababa, Axum, Adwa. Currently the wchool has more than 153
           teaching, administrativeand line staff. They are dedicated in
           providing quality education in an environment which emphasize on self

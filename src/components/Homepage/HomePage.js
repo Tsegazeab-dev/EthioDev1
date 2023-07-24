@@ -66,16 +66,17 @@ function HomePage() {
           </div>
         </div>
       </section>
-      <section>
-        {/* <div class="vertical-row2"></div> */}
+      <section className="flexx">
+        <div class="vertical-row2"></div>
         <div>
           <h2 className="Objectve"> Objective</h2>
-          <h4 className="pbacko">
+          <h4 class="pbacko">
             Working to meet the demand of the government socity and parents in
             order to build capable citizens, who keep their promises identify
             and recognize Ethiopia's beauty, unity and history.
           </h4>
         </div>
+        <div class="vertical-row3"></div>
       </section>
     </div>
   );
