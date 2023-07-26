@@ -1,12 +1,17 @@
+
 import './App.css'
 // import './css/bootstrap.css'
 import './css/styles.css'
+// import HomePage from "./components/Homepage/HomePage";
+// import Managiment from "./components/Managament/Managiment"
+
+// import "./App.css";
 import HomePage from "./components/Homepage/HomePage";
-import Managiment from "./components/Managament/Managiment"
+import Managiment from "./components/Managament/Managiment";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "../src/components/Footer/Footer";
 import Header from "./components/Header/Header";
-import Achievements from "./components/Achievements";
+import Achievements from "./components/Achievements/Achievements";
 import { Route, Routes } from "react-router-dom";
 import Banner from "./components/Banner/Banner";
 
@@ -20,8 +25,8 @@ function App() {
           element={
             <div>
               <Header />
-              <Banner/>
-              {/* <HomePage /> */}
+              {/* <Banner/> */}
+              <HomePage />
               <Footer />
             </div>
           }
@@ -32,7 +37,7 @@ function App() {
           element={
             <div>
               <Header />
-              <Managiment/>
+              <Managiment />
               <Footer />
             </div>
           }
@@ -42,7 +47,7 @@ function App() {
           element={
             <div>
               <Header />
-              <Achievements/>
+              <Achievements />
               <Footer />
             </div>
           }
@@ -52,7 +57,7 @@ function App() {
           element={
             <div>
               <Header />
-              <Gallery/>
+              <Gallery />
               <Footer />
             </div>
           }
