@@ -1,7 +1,9 @@
 import React from 'react'
 import'./Gallery.css'
 function Gallery() {
+   
   return (
+   
     <div className='lemcogalar'>
          <img className='gallery'></img>
          {/* <div className='one'>
@@ -34,10 +36,11 @@ function Gallery() {
              <img className='lemahabesha'></img>
              <img className='lemahabe'></img>
          </div>
-         
+        
       
     </div>
   )
 }
 
 export default Gallery
+
