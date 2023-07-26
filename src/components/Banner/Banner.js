@@ -28,7 +28,7 @@ import { useEffect, useState } from 'react'
         }else{
             setCurrentState(currentState+1)
         }
-    },4000)
+    },3000)
     return ()=> clearTimeout(timer)
    },[currentState])
    const bgImageStyle ={
@@ -48,7 +48,7 @@ import { useEffect, useState } from 'react'
 
             </div> */}
             <div>
-                <div className='descriotion'>
+                <div className='describtion'>
                     <h1>{imageSlide[currentState].title}</h1>
                    
                 </div>

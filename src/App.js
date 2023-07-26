@@ -1,7 +1,7 @@
 
 import './App.css'
 // import './css/bootstrap.css'
-import './css/styles.css'
+// import './css/styles.css'
 // import HomePage from "./components/Homepage/HomePage";
 // import Managiment from "./components/Managament/Managiment"
 
@@ -25,13 +25,22 @@ function App() {
           element={
             <div>
               <Header />
-              {/* <Banner/> */}
-              <HomePage />
+              <Banner/>
+              {/* <HomePage /> */}
               <Footer />
             </div>
           }
         /> 
-       
+         <Route
+          path="/HomePage"
+          element={
+            <div>
+              <Header />
+              <HomePage />
+              <Footer />
+            </div>
+          }
+        />
         <Route
           path="/management"
           element={
