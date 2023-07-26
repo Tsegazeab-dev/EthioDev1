@@ -36,7 +36,7 @@ function Gallery() {
              <img className='lemahabesha'></img>
              <img className='lemahabe'></img>
          </div>
-         
+        
       
     </div>
   )

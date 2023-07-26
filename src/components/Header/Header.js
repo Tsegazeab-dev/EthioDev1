@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Header.css'
-import logo from '../../images/green nature  illustration logo template social media (1).png'
+import logo from '../../images/green nature  illustration logo template social media.png'
 
 function Header() {
 	const [burger_class, setBurgerClass] = useState('bar unclicked');
@@ -22,7 +22,7 @@ function Header() {
   return (
 		<header className="flex shadow-md  items-center justify-between sticky top-0 z-50">
 			<div className="p-2">
-				<img className="relative  rounded-md h-28 cursor-pointer" src={logo} />
+				<a href='/'><img className="relative  rounded-md h-28 cursor-pointer" src={logo} /></a>
 			</div>
 
 			<div className="">
