@@ -20,7 +20,7 @@ function Header() {
         setIsClicked(!isClicked)
     }
   return (
-		<header className="flex shadow-md  items-center justify-between sticky top-0 z-50">
+		<header className="flex shadow-md  items-center justify-between">
 			<div className="p-2">
 				<a href='/'><img className="relative  rounded-md h-28 cursor-pointer" src={logo} /></a>
 			</div>
