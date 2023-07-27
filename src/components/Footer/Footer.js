@@ -32,11 +32,7 @@ function Footer() {
 					</li>
 					<li className=" flex space-x-2 ">
 						<ArrowRightCircleIcon className="h-6 " />
-<<<<<<< HEAD
-						<a href="">management</a>
-=======
 						<a href="">About us</a>
->>>>>>> 496f1d0f57b4b184b3032e1d4c7902ec487ba507
 					</li>
 					<li className=" flex space-x-2">
 						<ArrowRightCircleIcon className="h-6 " />
@@ -81,13 +77,8 @@ function Footer() {
 				
 				<h3 className="text-xl font-serif font-bold pl-14 mb-3">Contact us</h3>
 				<div className="flex space-x-2">
-<<<<<<< HEAD
 					<MapPinIcon className="h-6 " />
 					<p>Addis Ababa, Ethiopia</p>
-=======
-					<MapPinIcon className="h-6 " /> 
-					<p> Addis Ababa, Ethiopia</p>
->>>>>>> 496f1d0f57b4b184b3032e1d4c7902ec487ba507
 				</div>
 				<div className="flex space-x-2">
 					<EnvelopeIcon className="h-6 " />

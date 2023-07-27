@@ -1,55 +1,30 @@
-
-import './App.css'
-// import './css/bootstrap.css'
-// import './css/styles.css'
-// import HomePage from "./components/Homepage/HomePage";
-// import Managiment from "./components/Managament/Managiment"
-
-// import "./App.css";
-import HomePage from "./components/Homepage/HomePage";
-<<<<<<< HEAD
-// import Banner from "./components/Banner";
-import Managiment from "./components/Managament/Managiment"
-
-
-=======
+import Homepage from './components/Homepage/HomePage'
 import Managiment from "./components/Managament/Managiment";
->>>>>>> 496f1d0f57b4b184b3032e1d4c7902ec487ba507
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "../src/components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Achievements from "./components/Achievements/Achievements";
 import { Route, Routes } from "react-router-dom";
 import Banner from "./components/Banner/Banner";
+import HomePage from './components/Homepage/HomePage';
+import Test from './components/Test';
 
 function App() {
   return (
     
        <Routes>
-       
-        <Route
+         <Route
           path="/"
           element={
             <div>
-              <Header />
-              <Banner/>
-              {/* <HomePage /> */}
-              <Footer />
-            </div>
-          }
-        /> 
-         <Route
-          path="/HomePage"
-          element={
-            <div>
-              <Header />
-              <HomePage />
+              <Header/>
+              <HomePage/>
               <Footer />
             </div>
           }
         />
         <Route
-          path="/management"
+          path="/about-us"
           element={
             <div>
               <Header />
@@ -78,6 +53,27 @@ function App() {
             </div>
           }
         />
+        <Route
+          path="/test"
+          element={
+            <div>
+              <Header />
+              <Test/>
+              <Footer />
+            </div>
+          }
+        />
+        <Route
+          path="/Gallery"
+          element={
+            <div>
+              <Header />
+              <Gallery />
+              <Footer />
+            </div>
+          }
+        />
+
       </Routes>
 
    
