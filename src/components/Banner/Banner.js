@@ -16,7 +16,7 @@ const Banner = () => {
       } else {
         setCurrentState(currentState + 1);
       }
-    }, 7000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, [currentState]);
 
@@ -36,8 +36,8 @@ const Banner = () => {
     backgroundSize: "cover",
     height: "70vh",
     marginTop: "100px",
-    border:"solid 5px black"
-   
+    
+    marginLeft: "30px"
   };
 
  
@@ -48,14 +48,14 @@ const Banner = () => {
     <div className="countiner-style">
       <div style={bgImageStyle}>
          
-          <div className="carousel-boult">
+          {/* <div className="carousel-boult">
             {imageSlide.map((imageSlide, currentState) => (
               <span
                 key={currentState}
                 onClick={() => goToNext(currentState)}
               ></span>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
   );

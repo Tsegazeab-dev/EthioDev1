@@ -9,10 +9,10 @@
 
 
 }
-body section{
+/* body section{
     margin-right: 50px;
     margin-left: 50px;
-}
+} */
 
 .Final-pic {
     display: flex;
@@ -28,28 +28,21 @@ body section{
 
 
 
-.Heading{
-    /* margin-left: 50px; */
-    padding-top: 20px;
 
+.banner-achievement{
+    /* margin-left: 50px; */
+    /* padding-top: 20px; */
+background-image: url('../../images/Achievements_images/Achievement-banner.jpg');
+background-position: center;
+background-size: cover;
+height: 40vh;
     /* display: flex;x */
     /* justify-content: center; 
     
     width: 100%;  */
 }
 
-.Heading h1 {
-    color: #06224b;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-style: normal;
-    text-decoration: underline;
-    font-weight: 500;
-    font-size: 69px;
-    /* line-height: 76px; */
-    text-align: center;
-    text-transform: uppercase;
-}
+
 
 
 .Gown-Pic-Section {
@@ -162,6 +155,10 @@ body section{
 
 
 @media (max-width: 768px){
+
+    .banner-achievement{
+        height: 30vh;
+    }
 
     .Heading h1 {
         font-size: 50px;

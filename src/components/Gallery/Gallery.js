@@ -3,9 +3,12 @@ import'./Gallery.css'
 function Gallery() {
    
   return (
+    <div>
+        <div className="banner-gallery"></div>
+    
    
     <div className='lemcogalar'>
-         <img className='gallery'></img>
+         
          {/* <div className='one'>
              <img className='class'></img>
            
@@ -38,6 +41,7 @@ function Gallery() {
          </div>
         
       
+    </div>
     </div>
   )
 }
