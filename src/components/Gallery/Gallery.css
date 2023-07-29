@@ -1,4 +1,9 @@
-
+.banner-gallery{
+        background-image: url("../Gallery/image/Gallery-banner.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 40vh;
+      }
 .one{
     display: flex;
     justify-content: space-between;
@@ -110,16 +115,20 @@
 }
 
 @media (max-width: 768px) {
+    .lemcogalar{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .banner-gallery{
+        height: 30vh;
+    }
     .one{
         display:inline;
     }
     .lemlemha{
     display: none;
     }
-    .lemcogalar{
-        margin-left: 20px;
-        margin-right: 10px;
-    }
+    
     .lemlemms{
         width: 500px;
         height: 390px;

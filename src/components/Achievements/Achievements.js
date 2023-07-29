@@ -15,8 +15,8 @@ function Achievements() {
     return (
        <body>
         
-    <section>
-        <div className="Heading"><h1>Achievements</h1></div>
+    <section >
+        <div className="banner-achievement"></div>
     </section>
 
     <div className="Final-pic">

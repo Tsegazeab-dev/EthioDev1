@@ -5,9 +5,7 @@ import Footer from "../src/components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Achievements from "./components/Achievements/Achievements";
 import { Route, Routes } from "react-router-dom";
-import Banner from "./components/Banner/Banner";
 import HomePage from './components/Homepage/HomePage';
-import Test from './components/Test';
 
 function App() {
   return (
@@ -23,6 +21,7 @@ function App() {
             </div>
           }
         />
+         
         <Route
           path="/about-us"
           element={
@@ -53,26 +52,7 @@ function App() {
             </div>
           }
         />
-        <Route
-          path="/test"
-          element={
-            <div>
-              <Header />
-              <Test/>
-              <Footer />
-            </div>
-          }
-        />
-        <Route
-          path="/Gallery"
-          element={
-            <div>
-              <Header />
-              <Gallery />
-              <Footer />
-            </div>
-          }
-        />
+        
 
       </Routes>
 

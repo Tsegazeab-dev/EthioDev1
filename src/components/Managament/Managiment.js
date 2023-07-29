@@ -5,8 +5,7 @@ import './Managiment.css'
 function Managiment() {
   return (
     <div className='school'>
-         <div > 
-            <img className='manag'></img> 
+         <div className='banner-aboutUs'> 
          </div>
      
          <div className='continer'>

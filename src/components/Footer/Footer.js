@@ -26,21 +26,22 @@ function Footer() {
 			<div className="links ">
 				<p className=" text-xl font-serif font-bold pl-8 ">Go to</p>
 				<ul className="space-y-">
-				<li className=" flex space-x-2 ">
+					{/* <li className=" flex space-x-2 ">
 						<ArrowRightCircleIcon className="h-6 " />
 						<a href="">Home</a>
-					</li>
+					</li> */}
 					<li className=" flex space-x-2 ">
 						<ArrowRightCircleIcon className="h-6 " />
+
 						<a href="">About us</a>
 					</li>
 					<li className=" flex space-x-2">
 						<ArrowRightCircleIcon className="h-6 " />
-						<a href="">achivement</a>
+						<a href="">Achivement</a>
 					</li>
 					<li className=" flex space-x-2">
 						<ArrowRightCircleIcon className="h-6 " />
-						<a href="">gallery</a>
+						<a href="">Gallery</a>
 					</li>
 				</ul>
 			</div>
@@ -74,20 +75,23 @@ function Footer() {
 				</div>
 			</div>
 			<div className="space-y-1   ">
-				
-				<h3 className="text-xl font-serif font-bold pl-14 mb-3">Contact us</h3>
+				<h3 className="text-xl font-serif font-bold pl-14 mb-3 contact">
+					Contact us
+				</h3>
 				<div className="flex space-x-2">
 					<MapPinIcon className="h-6 " />
 					<p>Addis Ababa, Ethiopia</p>
 				</div>
-				<div className="flex space-x-2">
-					<EnvelopeIcon className="h-6 " />
-					<p>lemlemkg@ethionet.et</p>
-				</div>
-				<div className="flex space-x-2">
-					<PhoneIcon className="h-6 " />
-					<p>+251-111-140-074 </p>
-				</div>
+
+			<div className="flex space-x-2">
+				<EnvelopeIcon className="h-6 " />
+				<p>lemlemkg@ethionet.et</p>
+			</div>
+			<div className="flex space-x-2">
+				<PhoneIcon className="h-6 " />
+				<p>+251-111-140-074 </p>
+			</div>
+			{/* </div>y */}
 			</div>
 		</footer>
 	);
