@@ -9,51 +9,69 @@
 
 
 }
-/* body section{
+
+.banner-achievement {
+    width: 100%!important;
+    background-image: url('../../images/Achievements_images/Achievement-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+body section{
     margin-right: 50px;
     margin-left: 50px;
-} */
-
+}
 .Final-pic {
     display: flex;
-    margin-top:40px;
+    /* margin-top:40px; */
     
 
 }
 .Final-pic img{
-    width: 49%;
-    margin: 0px 4px;
+    width: 100%;
+    /* margin: 0px 4px; */
 }
 
 
 
 
-
-.banner-achievement{
+.Heading{
     /* margin-left: 50px; */
-    /* padding-top: 20px; */
-background-image: url('../../images/Achievements_images/Achievement-banner.jpg');
-background-position: center;
-background-size: cover;
-height: 40vh;
+    display: none;
+    padding-top: 20px;
+
     /* display: flex;x */
     /* justify-content: center; 
     
     width: 100%;  */
 }
 
-
+.Heading h1 {
+    color: #06224b;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 69px;
+    /* line-height: 76px; */
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 .Gown-Pic-Section {
     /* position: relative; Set the parent to relative positioning */
     display: flex;
     margin-top: 40px;
+    margin-bottom: 120px;
 }
-
+.Gown-Pic-Section :first-child {
+    margin-right: 14px;
+}
 .Gown-Pic-Section img {
     width: 49%;
-    margin: 0px 4px;
+    margin: 0px 0px;
     z-index: 1; /* Set a higher z-index value to keep the images on top */
 }
 
@@ -80,6 +98,7 @@ height: 40vh;
 }
 .Thumbnails div div div{
     display: inline;
+    height: min-content;
     justify-content: center;
     width: 150px;
     text-align: center;
@@ -87,6 +106,7 @@ height: 40vh;
 }
 
 .Thumbnails div div p {
+    padding-top: 15px;
     width:150px
 }
 .Thumbnails div div img {
@@ -105,6 +125,9 @@ height: 40vh;
     margin: 0px 25px;
 
 }
+#VLtop{
+    margin-left: 0px
+}
 .Congratulations div p {
     margin-top: 30px;
     width: 85%;
@@ -120,8 +143,8 @@ height: 40vh;
 
 
 .Girls-for-free {
-    margin-top: 120px;
-    height: 315px;
+    margin-top: 100px;
+    height: 365px;
     display: flex;
     font-size: 150%;
     
@@ -145,20 +168,22 @@ height: 40vh;
     justify-content: center;
     align-items: center;
     /* width: 100%; */
-    padding: 10px 80px;
+    padding: 1% 3%;
 }
-.Vertical-Line-Bottom {
+
+.VLbottom{
     background-color: #06224b;
-    width: 3px;
+    width: 3.5px;
     margin: 0px 25px;
+    
+    
+    
 }
 
 
-@media (max-width: 768px){
 
-    .banner-achievement{
-        height: 30vh;
-    }
+
+@media (max-width: 800px){
 
     .Heading h1 {
         font-size: 50px;
@@ -183,7 +208,12 @@ height: 40vh;
         width:  auto;
         padding-bottom: 20px;
     }
-    .Thumbnails div div div {
+    .Thumbnails div div :last-child{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+
+    }
+    /* .Thumbnails div div div {
         width: 180px;
     }
     .Thumbnails div div p {
@@ -191,7 +221,7 @@ height: 40vh;
     }
     .Thumbnails div div img {
         height: 180px;
-    }
+    } */
     .Girls-for-free {
         display: block;
     }
@@ -199,21 +229,47 @@ height: 40vh;
         display: none;
     }
     .Building {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 70px;
     }
     .Building img {
+        margin-bottom: 100px;
+        order: 2;
         height: 280px;
         margin: auto;
         align-self: center;
     }
-
+    .Building p {
+        padding: 0px;
+        order: 1;
+    }
+    .Girls-for-free {
+        margin-top: 70px;
+    }
+    .Girls-for-free img {
+        margin: auto;
+        padding: auto;
+    }
+    .Girls-for-free img, .Building img {
+        height: 310px;
+        
+    }
     
     .Girls-for-free p, .Congratulations div p, .Building p {
         font-size: 20px;
     }
 
-}
 
+
+}
+@media (max-width:600px) {
+    .Girls-for-free img, .Building img {
+        
+        height:min-content;
+    }
+
+}
 
 
 
