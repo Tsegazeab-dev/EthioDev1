@@ -20,7 +20,7 @@ function Header() {
         setIsClicked(!isClicked)
     }
   return (
-		<header className="flex shadow-md  items-center justify-between sticky top-0 z-50">
+		<header className="flex shadow-md  items-center justify-between">
 			<div className="p-2">
 				<a href='/'><img className="relative  rounded-md h-28 cursor-pointer" src={logo} /></a>
 			</div>
@@ -33,11 +33,8 @@ function Header() {
 
 			<div className="font-medium font-serif">
 				<ul className={menu_class}>
-				<li className="my-4 cursor-pointer nav-item ">
-						<a href="./Homepage">Home</a>
-					</li>
 					<li className="my-4 cursor-pointer nav-item ">
-						<a href="./management">About us</a>
+						<a href="./about-us">About us</a>
 					</li>
 					<li className="my-4 cursor-pointer nav-item ">
 						<a href="./Achievement" >Achievement</a>

@@ -77,8 +77,8 @@ function Footer() {
 				
 				<h3 className="text-xl font-serif font-bold pl-14 mb-3">Contact us</h3>
 				<div className="flex space-x-2">
-					<MapPinIcon className="h-6 " /> 
-					<p> Addis Ababa, Ethiopia</p>
+					<MapPinIcon className="h-6 " />
+					<p>Addis Ababa, Ethiopia</p>
 				</div>
 				<div className="flex space-x-2">
 					<EnvelopeIcon className="h-6 " />
