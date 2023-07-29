@@ -31,11 +31,11 @@ function HomePage() {
         <div className="container-fluid">
           <div className="row">
             <div className="left-side-wrapper col-sm-12 col-md-6">
-              <div class="vertical-mission"></div>
+              <div class="vertical-vission"></div>
               <div className="left-side-container">
-                <ul className="vission">
+                <ul className="">
                   <li>
-                    <h2 className="Mission">VISSION</h2>
+                    <h2 className="Vission">VISION</h2>
                     <h4 className="pback">
                       Our Vission is to offer young chldren an advanced
                       education related with scintific and technological

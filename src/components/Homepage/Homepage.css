@@ -86,25 +86,29 @@ a {
   font-size: 56px;
 }
 .Mission {
-  color: rgb(17, 82, 146);
+  color: rgb(18, 68, 119);
   margin-left: 5px 20px;
   font-weight: bold;
+  padding-top: 100px;
 }
 .Vission {
-  color: rgb(18, 77, 136);
+  color: rgb(18, 68, 119);
   margin-left: 20px;
   font-weight: bold;
+  padding-top: -50px;
 }
 .Objectve {
   color: rgb(18, 68, 119);
-  margin-left: 70px;
+  margin-left: 50px;
   font-weight: bold;
   text-align: center;
+  padding-top: 100px;
 }
 .background {
   margin-left: 10px;
   text-align: justify;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .home2-heghlight-wrapper left-side-container {
@@ -133,6 +137,7 @@ a {
   margin: 5px 20;
   /* font-size: xx-large; */
   font-style: normal;
+  font-size: 20px;
   font-family: "Raleway";
 }
 .pbacko {
@@ -140,6 +145,7 @@ a {
   font-style: normal;
   font-family: "Raleway";
   margin: 30px 30px;
+  font-size: 20px;
 }
 .heloocurve {
   font-weight: 700;
@@ -162,24 +168,24 @@ a {
 
 .vertical-row {
   float: left;
-  height: 350px;
-  width: 3px; /* edit this if you want */
+  height: 270px;
+  width: 1px; /* edit this if you want */
   background-color: #06224b;
   margin-top: -9px;
 }
 .vertical-row2 {
   float: left;
-  height: 70px;
-  width: 6px;
+  height: 90px;
+  width: 1px;
   background-color: #06224b;
-  margin: 50px 30px;
+  margin: 110px 50px 50px 70px;
 }
 .vertical-row3 {
   float: left;
-  height: 70px;
-  width: 6px;
+  height: 90px;
+  width: 1px;
   background-color: #06224b;
-  margin: 50px 100px;
+  margin: 110px 50px 50px 50px;
 }
 .flexx {
   display: flex;
@@ -187,13 +193,21 @@ a {
 
 .vertical-mission {
   float: right;
-  height: 200px;
-  width: 3px; /* edit this if you want */
+  height: 180px;
+  width: 1px; /* edit this if you want */
   /* background-color: #008000; */
   background-color: #06224b;
-  margin-top: 45px;
+ margin: 140px -10px 10px 10px;
 }
+.vertical-vission {
+  float: right;
+  height: 110px;
+  width: 1px; /* edit this if you want */
+  /* background-color: #008000; */
+  background-color: #06224b;
+  margin: 70px 0 10px 10px;
 
+}
 @media (max-width: 768px) {
   .heloocurve {
     text-align: justify;
@@ -202,20 +216,27 @@ a {
   .container-fluid {
     text-align: justify;
     text-rendering: optimizeLegibility;
-    word-spacing: -1px;
+    word-spacing: normal;
   }
+  .background {
+  margin-left: -40px;
+  text-align: justify;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
   .vertical-row2 {
-    height: 200px;
-    width: 2px;
+    display: none;
   }
   .vertical-row3 {
     display: none;
   }
   .vertical-row {
-    height: 400px;
-    width: 2px;
-    margin-top: 10px;
+    display: none;
   }
+  .vertical-vission {
+  display: none;
+
+}
 
   .home-heghlight-wrapper .left-side-container {
     background-image: url("./images/banner2LL2.jpg");
@@ -235,7 +256,7 @@ a {
   }
 
   .pbacko {
-    text-align: left;
+    text-align: justify;
     margin: 10px 30px;
     /* font-size: xx-large; */
     font-style: normal;
@@ -243,8 +264,7 @@ a {
   }
 
   .vertical-mission {
-    height: 200px;
-    width: 2px;
+    display: none;
   }
 }
 
@@ -259,10 +279,5 @@ a {
     margin: 10px 0px;
     font-style: normal;
     font-family: "Raleway";
-  }
-  .vertical-row {
-    height: fit-content;
-    width: 2px;
-    margin-top: 10px;
   }
 }
