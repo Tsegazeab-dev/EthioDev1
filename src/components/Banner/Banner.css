@@ -5,7 +5,7 @@
     padding:30px 0;
 } 
  .describtion{
-     width: 600px;
+    width: 600px;
     position: absolute;
     z-index: 999;
     
@@ -52,5 +52,12 @@ padding-top: 66vh;
      font-family: Georgia, 'Times New Roman', Times, serif;
      margin-top: 75px;
    }
+    .countiner-style{
+    /* height: 100vh; */
+    /* position: relative; */
+    /* background-color: rgb(15,78,163,0.9); */
+    padding-top: 30px;
+    margin: 0px;
+} 
 }
   
