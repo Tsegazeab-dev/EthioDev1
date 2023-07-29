@@ -3,6 +3,7 @@ import Content from "./Readmore";
 import Mycomponent from "./Mycomponent";
 import "./bootstrap.css";
 import "./Homepage.css";
+import Banner from "../Banner/Banner";
 
 // import ReactCurvedText from "react-curved-text";
 
@@ -13,7 +14,8 @@ function HomePage() {
         <div className="container-fluid">
           <div className="row">
             <div className="left-side-wrapper col-sm-12 col-md-6">
-              <div className="left-side-container"></div>
+              <Banner/>
+              {/* <div className="left-side-container"></div> */}
             </div>
             <div className="right-side-wrapper col-sm-12 col-md-6">
               <div className="right-side-container">
