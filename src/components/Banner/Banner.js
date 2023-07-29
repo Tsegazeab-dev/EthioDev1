@@ -3,7 +3,7 @@ import image_1 from "./image/pic-01.jpg";
 import image_2 from "./image/pic-3.jpg";
 import image_3 from "./image/pic-1.jpg";
 import image_4 from "./image/Pic-4.jpg";
-import des_img1 from './image/reg.jpeg'
+// import des_img1 from './image/reg.jpeg'
 import { useEffect, useState } from "react";
 import { Padding } from "@mui/icons-material";
 const Banner = () => {
@@ -35,8 +35,7 @@ const Banner = () => {
     backgroundPosition: "center",
     backgroundSize: "cover",
     height: "70vh",
-    marginTop: "100px",
-    
+    marginTop: "155px",
     marginLeft: "30px"
   };
 

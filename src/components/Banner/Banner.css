@@ -38,11 +38,12 @@ padding-top: 66vh;
 
 @media (max-width: 768px) {
  
-    .describtion{
+    .describtion bgImageStyle{
         width:700 px;
         height: 260px; 
-         min-height: 500px; 
-         margin-top: 99px;
+        min-height: 500px; 
+        margin-top: 99px;
+        margin-top: 30px;
     }
     .describtion h1{
      font-size: 45px;

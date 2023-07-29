@@ -45,7 +45,7 @@ a {
 
 /* Fourth section */
 .home-heghlight-wrapper .left-side-container {
-  background-image: url("./images/banner2LL2.jpg");
+  /* background-image: url("../../images/homepage/banner2LL2.jpg"); */
   background-color: #000;
   padding-top: 35px;
   margin: 100px 20px;
@@ -67,11 +67,11 @@ a {
   background-size: cover;
 }
 .home2-heghlight-wrapper .right-side-wrapper .right-side-container {
-  background-image: url("./images/culture.jpg");
+  background-image: url("../../images/homepage/culture.jpg");
   background-color: #165ca9;
   background-position: bottom;
-  padding-top: 35px;
-  margin: 30px 70px;
+  padding-top: 50px;
+  margin: 70px 50px 70px 70px;
   background-size: cover;
 }
 
@@ -87,22 +87,22 @@ a {
 }
 .Mission {
   color: rgb(18, 68, 119);
-  margin-left: 5px 20px;
+  margin: 20px 10px;
   font-weight: bold;
   padding-top: 100px;
 }
 .Vission {
   color: rgb(18, 68, 119);
-  margin-left: 20px;
+  margin-left: 10px;
   font-weight: bold;
-  padding-top: -50px;
+  padding-top: 20px;
 }
 .Objectve {
   color: rgb(18, 68, 119);
   margin-left: 50px;
   font-weight: bold;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 .background {
   margin-left: 10px;
@@ -131,10 +131,11 @@ a {
   color: rgb(20, 8, 121);
   cursor: pointer;
   font-weight: bold;
+  
 }
 .pback {
   text-align: left;
-  margin: 5px 20;
+  margin: 5px 20px;
   /* font-size: xx-large; */
   font-style: normal;
   font-size: 20px;
@@ -144,7 +145,7 @@ a {
   text-align: left;
   font-style: normal;
   font-family: "Raleway";
-  margin: 30px 30px;
+  margin: 20px 30px;
   font-size: 20px;
 }
 .heloocurve {
@@ -168,24 +169,26 @@ a {
 
 .vertical-row {
   float: left;
-  height: 270px;
+  height: 280px;
   width: 1px; /* edit this if you want */
   background-color: #06224b;
-  margin-top: -9px;
+  margin-top: 150px;
+ 
 }
+/* "document.getElementById('chartdiv').style.height = 200px" */
 .vertical-row2 {
   float: left;
   height: 90px;
   width: 1px;
   background-color: #06224b;
-  margin: 110px 50px 50px 70px;
+  margin: 70px 50px 50px 70px;
 }
 .vertical-row3 {
-  float: left;
+  float: right;
   height: 90px;
   width: 1px;
   background-color: #06224b;
-  margin: 110px 50px 50px 50px;
+  margin: 70px 100px 30px 100px;
 }
 .flexx {
   display: flex;
@@ -197,7 +200,7 @@ a {
   width: 1px; /* edit this if you want */
   /* background-color: #008000; */
   background-color: #06224b;
- margin: 140px -10px 10px 10px;
+  margin: 140px -10px 10px 10px;
 }
 .vertical-vission {
   float: right;
@@ -206,7 +209,6 @@ a {
   /* background-color: #008000; */
   background-color: #06224b;
   margin: 70px 0 10px 10px;
-
 }
 @media (max-width: 768px) {
   .heloocurve {
@@ -219,11 +221,11 @@ a {
     word-spacing: normal;
   }
   .background {
-  margin-left: -40px;
-  text-align: justify;
-  margin-bottom: 10px;
-  font-size: 20px;
-}
+    margin-left: -40px;
+    text-align: justify;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
   .vertical-row2 {
     display: none;
   }
@@ -234,12 +236,11 @@ a {
     display: none;
   }
   .vertical-vission {
-  display: none;
-
-}
+    display: none;
+  }
 
   .home-heghlight-wrapper .left-side-container {
-    background-image: url("./images/banner2LL2.jpg");
+    /* background-image: url("../../images/homepage/banner2LL2.jpg"); */
     background-color: #000;
     padding-top: 35px;
     margin: 10px -40px;
@@ -247,7 +248,7 @@ a {
   }
 
   .home2-heghlight-wrapper .right-side-wrapper .right-side-container {
-    background-image: url("./images/culture.jpg");
+    background-image: url("../../images/homepage/culture.jpg");
     background-color: #165ca9;
     background-position: bottom;
     padding-top: 35px;
