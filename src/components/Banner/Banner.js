@@ -26,33 +26,37 @@ const Banner = () => {
   
     { url: `${image_2}` },
     { url: `${image_3}` },
-    { url: `${image_4}`},
+    { url: `${image_4}` },
   ];
 
-  const background ={
-    backgroundColor: "rgb(15,78,163,0.9)"
-  }
+  const background = {
+    backgroundColor: "rgb(15,78,163,0.9)",
+  };
   const bgImageStyle = {
     backgroundImage: `url(${imageSlide[currentState].url})`,
     backgroundPosition: " left",
     backgroundSize: "cover",
     height: "70vh",
+
     marginTop: "100px",
 
     // border:"solid 5px black"
    
 
     
-    marginLeft: "30px"
+    marginLeft: "30px",
+
+    marginTop: "155px",
+    marginLeft: "30px",
 
   };
 
- 
   const goToNext = (currentState) => {
     setCurrentState(currentState);
   };
   return (
     <div className="countiner-style">
+
       <div style={bgImageStyle}>
          
           {/* <div className="carousel-boult">
@@ -73,4 +77,11 @@ const Banner = () => {
 export default Banner
 
 
+
+
+//       <div style={bgImageStyle}></div>
+//     </div>
+//   );
+// };
+// export default Banner;
 

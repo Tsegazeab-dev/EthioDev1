@@ -11,7 +11,11 @@
 
 } 
  .describtion{
+<<<<<<< HEAD
      /* width: 900px; */
+=======
+    width: 600px;
+>>>>>>> bc9d4d64bd857e07f1567984ba23aa243fb3e113
     position: absolute;
     /* z-index: 999; */
     
@@ -46,11 +50,12 @@ padding-top: 66vh;
 
 @media (max-width: 768px) {
  
-    .describtion{
+    .describtion bgImageStyle{
         width:700 px;
         height: 260px; 
-         min-height: 500px; 
-         margin-top: 99px;
+        min-height: 500px; 
+        margin-top: 99px;
+        margin-top: 30px;
     }
     .describtion h1{
      font-size: 45px;
@@ -59,5 +64,12 @@ padding-top: 66vh;
      font-family: Georgia, 'Times New Roman', Times, serif;
      margin-top: 75px;
    }
+    .countiner-style{
+    /* height: 100vh; */
+    /* position: relative; */
+    /* background-color: rgb(15,78,163,0.9); */
+    padding-top: 30px;
+    margin: 0px;
+} 
 }
   

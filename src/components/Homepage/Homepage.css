@@ -45,8 +45,13 @@ a {
 
 /* Fourth section */
 .home-heghlight-wrapper .left-side-container {
+
   background-image: url("./images/banner2LL2.jpg"); 
    background-color: #000;
+
+  /* background-image: url("../../images/homepage/banner2LL2.jpg"); */
+  background-color: #000;
+
   padding-top: 35px;
   margin: 100px 20px;
   background-size: cover;
@@ -67,11 +72,11 @@ a {
   background-size: cover;
 }
 .home2-heghlight-wrapper .right-side-wrapper .right-side-container {
-  background-image: url("./images/culture.jpg");
+  background-image: url("../../images/homepage/culture.jpg");
   background-color: #165ca9;
   background-position: bottom;
-  padding-top: 35px;
-  margin: 30px 70px;
+  padding-top: 50px;
+  margin: 70px 50px 70px 70px;
   background-size: cover;
 }
 
@@ -86,25 +91,29 @@ a {
   font-size: 56px;
 }
 .Mission {
-  color: rgb(17, 82, 146);
-  margin-left: 5px 20px;
+  color: rgb(18, 68, 119);
+  margin: 20px 10px;
   font-weight: bold;
+  padding-top: 100px;
 }
 .Vission {
-  color: rgb(18, 77, 136);
-  margin-left: 20px;
+  color: rgb(18, 68, 119);
+  margin-left: 10px;
   font-weight: bold;
+  padding-top: 20px;
 }
 .Objectve {
   color: rgb(18, 68, 119);
-  margin-left: 70px;
+  margin-left: 50px;
   font-weight: bold;
   text-align: center;
+  padding-top: 40px;
 }
 .background {
   margin-left: 10px;
   text-align: justify;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .home2-heghlight-wrapper left-side-container {
@@ -127,19 +136,22 @@ a {
   color: rgb(20, 8, 121);
   cursor: pointer;
   font-weight: bold;
+  
 }
 .pback {
   text-align: left;
-  margin: 5px 20;
+  margin: 5px 20px;
   /* font-size: xx-large; */
   font-style: normal;
+  font-size: 20px;
   font-family: "Raleway";
 }
 .pbacko {
   text-align: left;
   font-style: normal;
   font-family: "Raleway";
-  margin: 30px 30px;
+  margin: 20px 30px;
+  font-size: 20px;
 }
 .heloocurve {
   font-weight: 700;
@@ -162,24 +174,26 @@ a {
 
 .vertical-row {
   float: left;
-  height: 350px;
-  width: 3px; /* edit this if you want */
+  height: 280px;
+  width: 1px; /* edit this if you want */
   background-color: #06224b;
-  margin-top: -9px;
+  margin-top: 150px;
+ 
 }
+/* "document.getElementById('chartdiv').style.height = 200px" */
 .vertical-row2 {
   float: left;
-  height: 70px;
-  width: 6px;
+  height: 90px;
+  width: 1px;
   background-color: #06224b;
-  margin: 50px 30px;
+  margin: 70px 50px 50px 70px;
 }
 .vertical-row3 {
-  float: left;
-  height: 70px;
-  width: 6px;
+  float: right;
+  height: 90px;
+  width: 1px;
   background-color: #06224b;
-  margin: 50px 100px;
+  margin: 70px 100px 30px 100px;
 }
 .flexx {
   display: flex;
@@ -187,13 +201,20 @@ a {
 
 .vertical-mission {
   float: right;
-  height: 200px;
-  width: 3px; /* edit this if you want */
+  height: 180px;
+  width: 1px; /* edit this if you want */
   /* background-color: #008000; */
   background-color: #06224b;
-  margin-top: 45px;
+  margin: 140px -10px 10px 10px;
 }
-
+.vertical-vission {
+  float: right;
+  height: 110px;
+  width: 1px; /* edit this if you want */
+  /* background-color: #008000; */
+  background-color: #06224b;
+  margin: 70px 0 10px 10px;
+}
 @media (max-width: 768px) {
   .heloocurve {
     text-align: justify;
@@ -202,23 +223,29 @@ a {
   .container-fluid {
     text-align: justify;
     text-rendering: optimizeLegibility;
-    word-spacing: -1px;
+    word-spacing: normal;
+  }
+  .background {
+    margin-left: -40px;
+    text-align: justify;
+    margin: 10px 10px;
+    font-size: 20px;
   }
   .vertical-row2 {
-    height: 200px;
-    width: 2px;
+    display: none;
   }
   .vertical-row3 {
     display: none;
   }
   .vertical-row {
-    height: 400px;
-    width: 2px;
-    margin-top: 10px;
+    display: none;
+  }
+  .vertical-vission {
+    display: none;
   }
 
   .home-heghlight-wrapper .left-side-container {
-    background-image: url("./images/banner2LL2.jpg");
+    /* background-image: url("../../images/homepage/banner2LL2.jpg"); */
     background-color: #000;
     padding-top: 35px;
     margin: 10px -40px;
@@ -226,7 +253,7 @@ a {
   }
 
   .home2-heghlight-wrapper .right-side-wrapper .right-side-container {
-    background-image: url("./images/culture.jpg");
+    background-image: url("../../images/homepage/culture.jpg");
     background-color: #165ca9;
     background-position: bottom;
     padding-top: 35px;
@@ -235,7 +262,7 @@ a {
   }
 
   .pbacko {
-    text-align: left;
+    text-align: justify;
     margin: 10px 30px;
     /* font-size: xx-large; */
     font-style: normal;
@@ -243,8 +270,7 @@ a {
   }
 
   .vertical-mission {
-    height: 200px;
-    width: 2px;
+    display: none;
   }
 }
 
@@ -259,10 +285,5 @@ a {
     margin: 10px 0px;
     font-style: normal;
     font-family: "Raleway";
-  }
-  .vertical-row {
-    height: fit-content;
-    width: 2px;
-    margin-top: 10px;
   }
 }

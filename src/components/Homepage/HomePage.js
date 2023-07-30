@@ -1,12 +1,27 @@
 import React from "react";
-import Content from "./Readmore";
+// import Content from "./Readmore";
 import Mycomponent from "./Mycomponent";
 import "./bootstrap.css";
 import "./Homepage.css";
 import Banner from "../Banner/Banner";
 
 // import ReactCurvedText from "react-curved-text";
-
+import { useState } from "react";
+const ReadMore = ({ children }) => {
+  const text = children;
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+  return (
+    <p className="text">
+      {isReadMore ? text.slice(0, 670) : text}
+      <span onClick={toggleReadMore} className="read-or-hide">
+        {isReadMore ? "...Read more" : " Show less"}
+      </span>
+    </p>
+  );
+};
 function HomePage() {
   return (
     <div>
@@ -14,15 +29,40 @@ function HomePage() {
         <div className="container-fluid">
           <div className="row">
             <div className="left-side-wrapper col-sm-12 col-md-6">
-              <Banner/>
-              {/* <div className="left-side-container"></div> */}
+              <Banner />
             </div>
             <div className="right-side-wrapper col-sm-12 col-md-6">
               <div className="right-side-container">
                 <div className="title-wraper">WELCOME TO </div>
                 <Mycomponent />
-                <div class="vertical-row"></div>
-                <Content />
+                <div className="container-fluid">
+                  <h4 className="background">
+                    <ReadMore>
+                          Lemlem school was established in 1996. The school has
+                          three campuses; in Addis Ababa, Axum, Adwa. Currently
+                          the school has more than 153 teaching, administrative
+                          and line staff. They are dedicated in providing
+                          quality education in an environment which emphasize on
+                          self discipline, academic excellence, creative and
+                          pleasant social communications. The school's primary
+                          objective is to provide standardized and quality
+                          education to the nearby community with minimal fee and
+                          for free for those who can not afford to pay the
+                          monthly fee. Moreover the school is teaching female
+                          students fro free in the three campuses. Since its
+                          establishment the school has been gradually growing in
+                          size and in capital. The number of students was only
+                          in the year of establishment and currently has
+                          increased to more tha 1700 students. The quality of
+                          education and service it provides has also been
+                          improved considerably through these years. In addition,
+                          in collaboration with different NGOs and individuals
+                          the schoolhas helped three students to get medical
+                          assistance abroad.
+                       
+                    </ReadMore>
+                  </h4>
+                </div>
               </div>
             </div>
           </div>
@@ -33,11 +73,11 @@ function HomePage() {
         <div className="container-fluid">
           <div className="row">
             <div className="left-side-wrapper col-sm-12 col-md-6">
-              <div class="vertical-mission"></div>
+              <div class="vertical-vission"></div>
               <div className="left-side-container">
-                <ul className="vission">
+                <ul className="">
                   <li>
-                    <h2 className="Mission">VISSION</h2>
+                    <h2 className="Vission">VISION</h2>
                     <h4 className="pback">
                       Our Vission is to offer young chldren an advanced
                       education related with scintific and technological
