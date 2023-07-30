@@ -1,20 +1,20 @@
 import React, { useState } from 'react'
 import './Header.css'
-import logo from '../../images/green nature  illustration logo template social media.png'
+import logo from '../../images/Header/Logo1.jpg'
 
 function Header() {
 	const [burger_class, setBurgerClass] = useState('bar unclicked');
-    const [menu_class, setMenuClass] = useState('nav-link hidden');
+    const [menu_class, setMenuClass] = useState('nav-menu hidden');
     const [isClicked, setIsClicked] = useState(false)
 
     const updateMenu = ()=>{
         if(!isClicked){
             setBurgerClass('bar clicked');
-            setMenuClass('nav-link visible')
+            setMenuClass('nav-menu visible')
         }
         else{
             setBurgerClass('bar unclicked');
-            setMenuClass('nav-link hidden')
+            setMenuClass('nav-menu hidden')
         }
 
         setIsClicked(!isClicked)
@@ -22,7 +22,7 @@ function Header() {
   return (
 		<header className="flex shadow-md  items-center justify-between">
 			<div className="p-2">
-				<a href='/'><img className="relative  rounded-md h-28 cursor-pointer" src={logo} /></a>
+				<a href='/'><img className="relative  rounded-md h-20 md:h-24  cursor-pointer" src={logo} /></a>
 			</div>
 
 			<div className="">

@@ -1,12 +1,13 @@
 header{
-    min-height: 70px;
+    min-height: 40px;
     background-color: #06224b;
     color: white;
 }
-.nav-link{
-    position: fixed;
-    top:128px ;
+.nav-menu{
+    position: absolute;
+    top:96.33px ;
     right: 0;
+    z-index: 50;
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -60,9 +61,10 @@ header{
     .nav-bar{
         display: none;
     }
-    .nav-link{
+    .nav-menu{
         position: static;
         margin:0 20px 0 30px;
+        padding: 0;
         width: auto;
         display: flex;
         gap: 60px;
