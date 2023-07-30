@@ -183,7 +183,7 @@ body section{
 
 
 
-@media (max-width: 800px){
+@media (max-width: 768px){
 
     .Heading h1 {
         font-size: 50px;
@@ -201,8 +201,11 @@ body section{
         width: 100%;
     }
     .Thumbnails div {
-        display: block;
+        display: flex;
+        justify-content: center;
+        
     }
+    
 
     .Thumbnails div div {
         width:  auto;
@@ -252,24 +255,20 @@ body section{
         padding: auto;
     }
     .Girls-for-free img, .Building img {
-        height: 310px;
+        height: min-content;
         
     }
     
     .Girls-for-free p, .Congratulations div p, .Building p {
-        font-size: 20px;
+        font-size: 12px;
     }
 
 
 
 }
-@media (max-width:600px) {
-    .Girls-for-free img, .Building img {
-        
-        height:min-content;
-    }
 
-}
+
+
 
 
 
