@@ -245,7 +245,7 @@ a {
   }
 
   .home-heghlight-wrapper .left-side-container {
-    /* background-image: url("../../images/homepage/banner2LL2.jpg"); */
+    background-image: url("../../images/homepage/banner2LL2.jpg");
     background-color: #000;
     padding-top: 35px;
     margin: 10px -40px;

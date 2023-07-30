@@ -59,15 +59,15 @@ const Banner = () => {
 
       <div style={bgImageStyle}>
          
-          {/* <div className="carousel-boult">
+          {/* { <div className="carousel-boult">
             {imageSlide.map((imageSlide, currentState) => (
               <span
                 key={currentState}
                 onClick={() => goToNext(currentState)}
               ></span>
             ))}
-          </div> */}
-        </div>
+          </div>  */}
+         </div>
 
 
    
@@ -79,9 +79,9 @@ export default Banner
 
 
 
-//       <div style={bgImageStyle}></div>
+{/* //       <div style={bgImageStyle}></div>
 //     </div>
 //   );
 // };
-// export default Banner;
+// export default Banner; */}
 
