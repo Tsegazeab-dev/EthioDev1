@@ -95,6 +95,7 @@ function Footer() {
     </footer>
   );
 
+<<<<<<< HEAD
 	// 		<div className="links ">
 	// 			<p className=" text-xl font-serif font-bold pl-8 ">Go to</p>
 	// 			<ul className="space-y-">
@@ -166,6 +167,77 @@ function Footer() {
 	// 		{/* </div>y */}
 	// 		</div>
 	// 	</footer>
+=======
+		// 	<div className="links ">
+		// 		<p className=" text-xl font-serif font-bold pl-8 ">Go to</p>
+		// 		<ul className="space-y-">
+		// 			{/* <li className=" flex space-x-2 ">
+		// 				<ArrowRightCircleIcon className="h-6 " />
+		// 				<a href="">Home</a>
+		// 			</li> */}
+		// 			<li className=" flex space-x-2 ">
+		// 				<ArrowRightCircleIcon className="h-6 " />
+		// 				<a href="">About us</a>
+		// 			</li>
+		// 			<li className=" flex space-x-2">
+		// 				<ArrowRightCircleIcon className="h-6 " />
+		// 				<a href="">Achivement</a>
+		// 			</li>
+		// 			<li className=" flex space-x-2">
+		// 				<ArrowRightCircleIcon className="h-6 " />
+		// 				<a href="">Gallery</a>
+		// 			</li>
+		// 		</ul>
+		// 	</div>
+		// 	<div className="officeHour">
+		// 		<h4 className="text-xl font-serif font-bold mb-3 pl-14">Office hour</h4>
+		// 		<h6>Monday to Friday 8:00AM - 5:00PM </h6>
+		// 		<div>
+		// 			<div className="social-media  ">
+		// 				<a href="#" target="_blank">
+		// 					<i className="text-white">
+		// 						<FacebookIcon />
+		// 					</i>
+		// 				</a>
+		// 				<a href="#" target="_blank">
+		// 					<i className="text-white">
+		// 						<InstagramIcon />
+		// 					</i>
+		// 				</a>
+		// 				<a href="#" target="_blank">
+		// 					<i className="text-white">
+		// 						<TwitterIcon />
+		// 					</i>
+		// 				</a>
+		// 				<a href="https://t.me/LemHS" target="_blank">
+		// 					<i className="text-white">
+		// 						<TelegramIcon />
+		// 					</i>
+		// 				</a>
+		// 			</div>
+		// 		</div>
+		// 	</div>
+		// 	<div className="space-y-1   ">
+		// 		<h3 className="text-xl font-serif font-bold pl-14 mb-3 contact">
+		// 			Contact us
+		// 		</h3>
+		// 		<div className="flex space-x-2">
+		// 			<MapPinIcon className="h-6 " />
+		// 			<p>Addis Ababa, Ethiopia</p>
+		// 		</div>
+
+		// 	<div className="flex space-x-2">
+		// 		<EnvelopeIcon className="h-6 " />
+		// 		<p>lemlemkg@ethionet.et</p>
+		// 	</div>
+		// 	<div className="flex space-x-2">
+		// 		<PhoneIcon className="h-6 " />
+		// 		<p>+251-111-140-074 </p>
+		// 	</div>
+		// 	</div>
+		// 	// </div>
+		// // </footer>
+>>>>>>> ec13b916287a4b587aee8444be615ed4772f3e31
 	// );
 
 }

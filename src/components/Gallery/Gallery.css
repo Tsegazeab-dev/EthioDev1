@@ -1,3 +1,4 @@
+
 .banner-gallery{
         background-image: url("../Gallery/image/Gallery-banner.jpg");
         background-position: center;
@@ -7,6 +8,9 @@
 .one{
     display: flex;
     justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
 }
 .class{
    
@@ -14,9 +18,7 @@
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
-    margin-left: 10px;
-    margin-top: 10px;
-      
+    margin-left: 10px;     
 }
 
 .kghs{
@@ -25,7 +27,6 @@
     width: 500px;
     height: 390px;
     margin-left: 10px;
-    margin-top: 10px;
 }
 .cdh_2023{
     background-image: url(./image/photo_2023-07-21_13-33-37.jpg);
@@ -33,7 +34,6 @@
     width: 500px;
     height: 390px;
     margin-left: 10px;
-    margin-top: 10px; 
 }
 
 .lemlemms{
@@ -42,7 +42,7 @@
     width: 500px;
     height: 390px;
     margin-left: 10px;
-    margin-top: 10px;
+
 }
 .lemlemha{
     background-image: url(./image/School\ management_3.jpg);
@@ -50,7 +50,7 @@
     width: 500px;
     height:390px;
     margin-left: 10px; 
-    margin-top: 10px; 
+
 }
 .kglem{
      background-image: url(./image/IMG_20230704_102836_778.jpg); 
@@ -58,7 +58,7 @@
     width: 500px;
     height: 390px;
     margin-left: 10px; 
-    margin-top: 10px; 
+
 }
 
 
@@ -68,7 +68,7 @@
     width: 500px;
     height: 370px;
     margin-left: 10px; 
-    margin-top: 10px;
+
 }
 .lemahabesha{
     background-image: url(./image/lemlem_ca.jpg);
@@ -76,7 +76,7 @@
     width: 500px;
     height: 370px;
     margin-left: 10px; 
-    margin-top: 10px; 
+
 }
 .lemahabe{
     background-image: url(./image/photo_2022-02-15_00-03-26.jpg);
@@ -84,17 +84,17 @@
     width: 500px;
     height: 370px;
     margin-left: 10px; 
-    margin-top: 10px; 
+ 
 }
 
 
 .lemachi{
-    background-image: url(./image/photo_2023-07-21_12-56-18\ \(1\).jpg);
+    background-image: url(./image/entoto_2.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
     margin-left: 10px;
-    margin-top: 10px;
+
 }
 .lemacha{
     background-image: url(./image/photo_2023-06-16_10-55-30.jpg);
@@ -102,18 +102,36 @@
     width: 500px;
     height: 390px;
     margin-left: 10px;
-    margin-top: 10px;
+  
 }
 .kggallery{
     background-image: url(./image/IMG_20230704_100349_833.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
-    margin-left: 10px;
-    margin-top: 10px;
-     
+    margin-left: 10px;   
 }
-
+.lemlem_sport{
+    background-image: url(./image/Sport_01lem.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 390px;
+    margin-left: 10px;   
+}
+.culture{
+    background-image: url(./image/lemlem_cul.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 390px;
+    margin-left: 10px;  
+}
+.culture_01{
+    background-image: url(./image/lemlem_culture02.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 390px;
+    margin-left: 10px; 
+}
 @media (max-width: 768px) {
     .lemcogalar{
         margin-left: 20px;
@@ -140,5 +158,8 @@
     }
     .lemkg_1{
       display: none;
+    }
+    .culture{
+        display: none;
     }
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import banner from '../../images/Achievements_images/Achievement-banner.jpg'
 // import gown1 from '../../images/Achievements_images/IMG_20230704_103746_983.jpg'
 import wancha1 from '../../images/Achievements_images/Wancha.jpeg'
 import wancha2 from '../../images/Achievements_images/Wancha2.jpeg'
@@ -15,23 +16,24 @@ function Achievements() {
     return (
        <body>
         
-    <section >
-        <div className="banner-achievement"></div>
-    </section>
-
-    <div className="Final-pic">
-        <img src={wancha1} id= "A1"></img>
-        <img src = {wancha2} id= "A2"></img>
+    <div >
+        <div className="banner-achievement">
+        </div>
     </div>
+
+    {/* <div className="Final-pic">
+        <img src={banner} id= "A1"></img>
+        <img src = {wancha2} id= "A2"></img>
+    </div> */}
 
 
     <section className="Congratulations">
-        <div className="Vertical-Line"></div>
+        <div className="Vertical-Line" id="VLtop"></div>
         <div>
             <h2>Congratulations!!!</h2>
             <p>Lemlem is incredibly proud to announce that an astounding 99.9% of the students who have taken the national exam in the past five years have successfully passed with remarkable results. 
                 This outstanding achievement demonstrates the unwavering commitment and dedication of our students, teachers, and the entire Lemlem community. 
-                Together, we are shaping a bright and promising future for all our students
+                Together, we are shaping a bright and promising future for all our students.
             </p>
         </div>
     </section>
@@ -74,6 +76,7 @@ function Achievements() {
         </div>
     </section>
     <section className="Girls-for-free">
+    
         <p>To foster inclusion and diversity, we provide education  for needy female students on all 3 campuses - Addis Ababa, Axum and Adwa campuses.
         </p>
         <div className="Vertical-Line"></div>
@@ -83,8 +86,9 @@ function Achievements() {
     
     <section className="Building">
         <img src={Building}></img>
-        <div className="Vertical-Line-Bottom"></div>
-        <p>With your help, Lemlem School have managed to own G+3 building in the Addis Ababa Campus
+        <div className="VLbottom"></div> 
+        
+        <p>Lemlem School have managed to own G+3 building in the Addis Ababa Campus. 
         </p>
         
     </section>
