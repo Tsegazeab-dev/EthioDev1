@@ -16,6 +16,7 @@
     background-position: center;
     background-size: cover;
     height: 40vh;
+    margin-top: 5px;
 }
 body section{
     margin-right: 50px;
@@ -79,7 +80,7 @@ body section{
 .Congratulations {
     margin-top: 90px;
     display: flex;
-    font-size: 150%;
+    font-size: 22px;
     font-family: 'Raleway';
 
 }
@@ -97,7 +98,7 @@ body section{
     width: 300px;
 }
 .Thumbnails div div div{
-    display: inline;
+    display: block;
     height: min-content;
     justify-content: center;
     width: 150px;
@@ -146,7 +147,7 @@ body section{
     margin-top: 100px;
     height: 365px;
     display: flex;
-    font-size: 150%;
+    font-size: 22px;
     
 }
 .Girls-for-free p {
@@ -160,7 +161,7 @@ body section{
     margin-top: 120px;
     height: 365px;
     display: flex;
-    font-size: 150%;
+    font-size: 22px;
     
 }
 .Building p {
@@ -183,7 +184,7 @@ body section{
 
 
 
-@media (max-width: 800px){
+@media (max-width: 768px){
 
     .Heading h1 {
         font-size: 50px;
@@ -194,16 +195,21 @@ body section{
     .Final-pic img {
         width: 100%;
     }
-    .Gown-Pic-Section #G1 {
-        display:  none;
+    .Thumbnails div div img {
+        height: 100px;
+    }    
+    .Gown-Pic-Section{
+        display: block;
+
     }
     .Gown-Pic-Section img {
         width: 100%;
+        margin-bottom: 35px;
     }
-    .Thumbnails div {
-        display: block;
+    
+    .Thumbnails p{
+       display: none;
     }
-
     .Thumbnails div div {
         width:  auto;
         padding-bottom: 20px;
@@ -234,10 +240,10 @@ body section{
         margin-bottom: 70px;
     }
     .Building img {
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
         order: 2;
         height: 280px;
-        margin: auto;
+        /* margin: auto; */
         align-self: center;
     }
     .Building p {
@@ -251,10 +257,7 @@ body section{
         margin: auto;
         padding: auto;
     }
-    .Girls-for-free img, .Building img {
-        height: 310px;
-        
-    }
+   
     
     .Girls-for-free p, .Congratulations div p, .Building p {
         font-size: 20px;
@@ -263,13 +266,9 @@ body section{
 
 
 }
-@media (max-width:600px) {
-    .Girls-for-free img, .Building img {
-        
-        height:min-content;
-    }
 
-}
+
+
 
 
 

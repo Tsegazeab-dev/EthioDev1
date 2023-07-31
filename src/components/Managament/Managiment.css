@@ -3,6 +3,7 @@
   background-position: center;
   background-size: cover;
   height: 40vh;
+  margin-top: 5px;
 }
 
 .txt {
@@ -12,7 +13,7 @@
   max-width: 700px;
   font-family: "Raleway";
   font-weight: 350;
-  font-size: 150%;
+  font-size: 22px;
 
   margin-left: 20px;
   margin-right: 20px;
@@ -23,6 +24,7 @@
   font-weight: 700;
   font-size: 30px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .border_1 {
   background-color: #0a316b;
@@ -70,16 +72,17 @@
   }
   .txt {
     text-align: justify;
-    font-size: 2ch;
     margin-left: 20px;
     margin-right: 20px;
     font-family: "Raleway";
+    font-size: 20px;
   }
   .image {
     width: 580px;
     height: 470px;
-    margin-left: 30px;
-    margin-right: 30px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    margin-inline: auto;
     margin-top: 35px;
     margin-bottom: 0px;
   }
@@ -91,8 +94,9 @@
     background-repeat: no-repeat;
     width: 610px;
     height: 490px;
-    margin-left: 30px;
-    margin-right: 30px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    margin-inline: auto;
     margin-top: 55px;
   }
   .border_2 {

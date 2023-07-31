@@ -7,8 +7,8 @@ const Mycomponent = () => {
         height={150}
         cx={170}
         cy={210}
-        rx={100}
-        ry={180}
+        rx={120}
+        ry={160}
         startOffset={100}
         text="LEMLEM SCHOOL"
         reversed={true}

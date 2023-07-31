@@ -1,9 +1,11 @@
 
 .banner-gallery{
-        background-image: url("../Gallery/image/Gallery-banner.jpg");
+        background-image: url("../../images/Gallery/Gallery-banner.jpg");
         background-position: center;
         background-size: cover;
         height: 40vh;
+        margin-top: 5px;
+        margin-bottom: 20px;
       }
 .one{
     display: flex;
@@ -14,7 +16,7 @@
 }
 .class{
    
-    background-image: url( ./image/photo_2023-07-21_13-34-41.jpg);
+    background-image: url( ../../images/Gallery/pic-1.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
@@ -22,14 +24,14 @@
 }
 
 .kghs{
-    background-image: url(./image/photo_2023-07-21_13-34-31.jpg);
+    background-image: url(../../images/Gallery/pic-2.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
     margin-left: 10px;
 }
 .cdh_2023{
-    background-image: url(./image/photo_2023-07-21_13-33-37.jpg);
+    background-image: url(../../images/Gallery/pic-3.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
@@ -37,23 +39,16 @@
 }
 
 .lemlemms{
-    background-image: url(./image/photo_2023-07-04_16-44-35.jpg);
+    background-image: url(../../images/Gallery/pic-4.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
     margin-left: 10px;
 
 }
-.lemlemha{
-    background-image: url(./image/School\ management_3.jpg);
-    background-repeat: no-repeat;
-    width: 500px;
-    height:390px;
-    margin-left: 10px; 
 
-}
 .kglem{
-     background-image: url(./image/IMG_20230704_102836_778.jpg); 
+     background-image: url(../../images/Gallery/pic-5.jpg); 
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
@@ -63,7 +58,7 @@
 
 
 .lemacal{
-    background-image: url(./image/photo_2021-10-17_18-07-42.jpg);
+    background-image: url(../../images/Gallery/pic-6.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 370px;
@@ -71,7 +66,7 @@
 
 }
 .lemahabesha{
-    background-image: url(./image/lemlem_ca.jpg);
+    background-image: url(../../images/Gallery/pic-7.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 370px;
@@ -79,7 +74,7 @@
 
 }
 .lemahabe{
-    background-image: url(./image/photo_2022-02-15_00-03-26.jpg);
+    background-image: url(../../images/Gallery/pic-8.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 370px;
@@ -89,15 +84,16 @@
 
 
 .lemachi{
-    background-image: url(./image/entoto_2.jpg);
+    background-image: url(../../images/Gallery/pic-9.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     width: 500px;
     height: 390px;
     margin-left: 10px;
 
 }
 .lemacha{
-    background-image: url(./image/photo_2023-06-16_10-55-30.jpg);
+    background-image: url(../../images/Gallery/pic-10.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
@@ -105,43 +101,61 @@
   
 }
 .kggallery{
-    background-image: url(./image/IMG_20230704_100349_833.jpg);
+    background-image: url(../../images/Gallery/pic-11.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
     margin-left: 10px;   
 }
 .lemlem_sport{
-    background-image: url(./image/Sport_01lem.jpg);
+    background-image: url(../../images/Gallery/pic-12.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     width: 500px;
     height: 390px;
     margin-left: 10px;   
 }
 .culture{
-    background-image: url(./image/lemlem_cul.jpg);
+    background-image: url(../../images/Gallery/pic-13.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
     margin-left: 10px;  
 }
 .culture_01{
-    background-image: url(./image/lemlem_culture02.jpg);
+    background-image: url(../../images/Gallery/pic-14.jpg);
     background-repeat: no-repeat;
     width: 500px;
     height: 390px;
     margin-left: 10px; 
 }
+.lemlemha{
+    background-image: url(../../images/Gallery/pic-15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height:390px;
+    margin-left: 10px; 
+
+}
+
 @media (max-width: 768px) {
     .lemcogalar{
         margin-left: 20px;
         margin-right: 10px;
+      
     }
     .banner-gallery{
         height: 30vh;
     }
     .one{
-        display:inline;
+        margin-top: 0;
+        display:block;
+    }
+    .one img{
+        margin-bottom: 10px;
+        margin-inline: auto;
     }
     .lemlemha{
     display: none;

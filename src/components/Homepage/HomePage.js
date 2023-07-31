@@ -36,7 +36,7 @@ function HomePage() {
                 <div className="title-wraper">WELCOME TO </div>
                 <Mycomponent />
                 <div className="container-fluid">
-                  <h4 className="background">
+                  <p className="background">
                     <ReadMore>
                           Lemlem school was established in 1996. The school has
                           three campuses; in Addis Ababa, Axum, Adwa. Currently
@@ -61,7 +61,7 @@ function HomePage() {
                           assistance abroad.
                        
                     </ReadMore>
-                  </h4>
+                  </p>
                 </div>
               </div>
             </div>
@@ -110,7 +110,7 @@ function HomePage() {
         </div>
       </section>
       <section className="flexx">
-        <div class="vertical-row2"></div>
+        {/* <div class="vertical-row2"></div> */}
         <div>
           <h2 className="Objectve"> OBJECTIVE</h2>
           <h4 class="pbacko">
@@ -119,7 +119,7 @@ function HomePage() {
             and recognize Ethiopia's beauty, unity and history.
           </h4>
         </div>
-        <div class="vertical-row3"></div>
+        {/* <div class="vertical-row3"></div> */}
       </section>
     </div>
   );

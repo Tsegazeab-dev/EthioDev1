@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../../images/lemlemLogo.jpg";
+import logo from "../../images/Footer/lemlemLogo.jpg";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
@@ -9,6 +9,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import TelegramIcon from "@mui/icons-material/Telegram";
+import CopyrightIcon from '@mui/icons-material/Copyright';
 
 function Footer() {
   return (
@@ -28,15 +29,15 @@ function Footer() {
         <ul className="space-y-">
           <li className=" flex space-x-2 ">
             <ArrowRightCircleIcon className="h-6 " />
-            <a href="">About us</a>
+            <a href="/about-us">About us</a>
           </li>
           <li className=" flex space-x-2">
             <ArrowRightCircleIcon className="h-6 " />
-            <a href="">Achivement</a>
+            <a href="/Achievement">Achivement</a>
           </li>
           <li className=" flex space-x-2">
             <ArrowRightCircleIcon className="h-6 " />
-            <a href="">Gallery</a>
+            <a href="/Gallery">Gallery</a>
           </li>
         </ul>
       </div>
@@ -73,6 +74,11 @@ function Footer() {
               </i>{" "}
             </a>{" "}
           </div>{" "}
+
+        </div>
+
+        <div className="copyright mt-11 md:mt-4 ">
+          <p><span>Copyright 2023</span> ALL RIGHTS RESERVED <CopyrightIcon/></p>
         </div>
       </div>
       <div className="space-y-1   ">
@@ -95,6 +101,5 @@ function Footer() {
       </div>
     </footer>
   );
-}
-
+  }
 export default Footer;

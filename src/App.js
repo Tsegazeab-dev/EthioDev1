@@ -6,11 +6,11 @@ import Header from "./components/Header/Header";
 import Achievements from "./components/Achievements/Achievements";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./components/Homepage/HomePage";
+import Banner from "./components/Banner/Banner";
 
 function App() {
   return (
     <Routes>    
-      <Route>
         <Route
           path="/"
           element={
@@ -52,7 +52,7 @@ function App() {
             </div>
           }
         />
-      </Route>
+        
     </Routes>
   );
 }
