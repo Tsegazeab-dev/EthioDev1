@@ -267,7 +267,14 @@ body section{
 
 }
 
-
+@media (max-width:300px){
+    .Congratulations p{
+        font-size: 90%;
+    }
+    .Congratulations h2 {
+        font-size: 70%
+    }
+}
 
 
 
