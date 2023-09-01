@@ -272,7 +272,13 @@ body section{
         font-size: 90%;
     }
     .Congratulations h2 {
-        font-size: 70%
+        font-size: 75%;
+    }
+    .Thumbnails {
+        display: none;
+    }
+    .Building img {
+        height: auto;
     }
 }
 
