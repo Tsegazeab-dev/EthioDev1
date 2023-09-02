@@ -38,27 +38,19 @@ function HomePage() {
                 <div className="container-fluid">
                   <p className="background">
                     <ReadMore>
-                          Lemlem school was established in 1996. The school has
-                          three campuses; in Addis Ababa, Axum, Adwa. Currently
-                          the school has more than 153 teaching, administrative
-                          and line staff. They are dedicated in providing
+                          Lemlem school was established in 1996.  Currently
+                          the school has more than 153 teaching and administrative staff. They are dedicated in providing
                           quality education in an environment which emphasize on
                           self discipline, academic excellence, creative and
                           pleasant social communications. The school's primary
                           objective is to provide standardized and quality
-                          education to the nearby community with minimal fee and
-                          for free for those who can not afford to pay the
-                          monthly fee. Moreover the school is teaching female
-                          students fro free in the three campuses. Since its
+                          education to the nearby community with minimal fee. Since its
                           establishment the school has been gradually growing in
                           size and in capital. The number of students was only
                           in the year of establishment and currently has
                           increased to more tha 1700 students. The quality of
                           education and service it provides has also been
-                          improved considerably through these years. In addition,
-                          in collaboration with different NGOs and individuals
-                          the schoolhas helped three students to get medical
-                          assistance abroad.
+                          improved considerably through these years. In addition, the school maintains an enduring partnerships with both governmental and non-governmental institutions with the aim of enhancing the quality of education offered to students. These connections provide the school with access to valuable resources, expertise, networking opportunities, and advocacy efforts, which can greatly contribute to the improvement of the educational experience for students.                     
                        
                     </ReadMore>
                   </p>
@@ -79,10 +71,10 @@ function HomePage() {
                   <li>
                     <h2 className="Vission">VISION</h2>
                     <h4 className="pback">
-                      Our Vission is to offer young chldren an advanced
-                      education related with scintific and technological
+                      Our Vission is to offer young children an advanced
+                      education related with scientific and technological
                       development which takes the nation's demand, social and
-                      cultural aspects acount. We strive to produce confident
+                      cultural aspects account. We strive to produce confident
                       and hardworking citizens
                     </h4>
                   </li>
@@ -90,14 +82,10 @@ function HomePage() {
                   <li>
                     <h2 className="Mission">MISSION</h2>
                     <h4 className="pback">
-                      To give quality education and fuide students to be
-                      creative, competent and capable of problem solving To
-                      provide the required knowlodge to enable students pass
-                      successfully the national exams prepaire studentsenter the
-                      university. Working to improve the systemof he learning
-                      and teaching activity and relate it with model technology
-                      Work to produce a democratic, independent and confident
-                      sitizen.
+                    Equipping students with the necessary skills and knowledge to succeed in their future pursuits, whether it be in higher education or in their professional endeavors.
+                    Working to improve the system of the teaching and learning activity and relate it with modern technology.<br/> 
+                    Work to produce a democratic, independent and confident
+                    citizen.
                     </h4>
                   </li>
                 </ul>

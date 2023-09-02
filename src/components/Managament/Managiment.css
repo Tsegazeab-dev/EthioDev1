@@ -40,7 +40,7 @@
 .image {
   background-image: url(../../images/Management/School_managament1.png);
   background-repeat: no-repeat;
-  width: 650px;
+  width: 600px;
   height: 470px;
 }
 .border_2 {
@@ -53,13 +53,13 @@
 .students {
   background-image: url(../../images/Management/School\ management_4.png);
   background-repeat: no-repeat;
-  width: 615px;
+  width: 600px;
   height: 490px;
   margin-right: 20px;
   margin-top: 20px;
   margin-left: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 550px) {
     .banner-aboutUs{
         height: 30vh;
     }
@@ -72,32 +72,43 @@
   }
   .txt {
     text-align: justify;
+    word-spacing: -1px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: "Raleway";
-    font-size: 20px;
+    font-size: 19px;
+    /* font-weight: 500; */
+    margin-top: 20px;
+  }
+  .txt h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 50px;
   }
   .image {
-    width: 580px;
-    height: 470px;
-    /* margin-left: 30px;
-    margin-right: 30px; */
-    margin-inline: auto;
-    margin-top: 35px;
-    margin-bottom: 0px;
+display: none;
   }
   .students {
     display: none;
   }
-  .school_manag {
-    background-image: url(../../images/Management/School\ management_4.png);
+  .management{
+    background-image: url(../../images/Management/mana02\ \(1\).png);
     background-repeat: no-repeat;
-    width: 610px;
-    height: 490px;
-    /* margin-left: 30px;
-    margin-right: 30px; */
+    width: 100%;
+    height: 300px;
     margin-inline: auto;
-    margin-top: 55px;
+   
+  }
+  .school_manag {
+    background-image: url(../../images/Management/School\ management_3\ \(1\).jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin-inline: auto;
+    margin-top: 1px;
   }
   .border_2 {
     display: none;

@@ -9,6 +9,7 @@ function Managiment() {
          </div>
      
          <div className='continer'>
+         <img className='management'></img> 
             <div className='txt'>
             
               <h1>The school Management and the staff</h1>
@@ -23,6 +24,7 @@ function Managiment() {
          </div>
     <div className='continer'>
          <img className='students'></img>
+         <img className='school_manag'></img>
          <div className="border_2"></div> 
 
            <div className='txt'>
@@ -34,7 +36,7 @@ function Managiment() {
                      in the different non curricular clubs formed in the school. In addition to the regular class the school management has put a system in place in which the students are taught to develop their social skills so that they will contribute to the society.</p> 
                                    
              </div>
-             <img className='school_manag'></img>
+             
          </div>
     </div>
     

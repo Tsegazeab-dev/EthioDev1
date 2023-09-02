@@ -18,7 +18,8 @@
    
     background-image: url( ../../images/Gallery/pic-1.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 390px;
     margin-left: 10px;     
 }
@@ -26,14 +27,16 @@
 .kghs{
     background-image: url(../../images/Gallery/pic-2.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 390px;
     margin-left: 10px;
 }
 .cdh_2023{
     background-image: url(../../images/Gallery/pic-3.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 390px;
     margin-left: 10px;
 }
@@ -41,7 +44,8 @@
 .lemlemms{
     background-image: url(../../images/Gallery/pic-4.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 390px;
     margin-left: 10px;
 
@@ -50,7 +54,8 @@
 .kglem{
      background-image: url(../../images/Gallery/pic-5.jpg); 
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 390px;
     margin-left: 10px; 
 
@@ -60,7 +65,8 @@
 .lemacal{
     background-image: url(../../images/Gallery/pic-6.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 370px;
     margin-left: 10px; 
 
@@ -68,7 +74,8 @@
 .lemahabesha{
     background-image: url(../../images/Gallery/pic-7.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 370px;
     margin-left: 10px; 
 
@@ -76,7 +83,8 @@
 .lemahabe{
     background-image: url(../../images/Gallery/pic-8.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 370px;
     margin-left: 10px; 
  
@@ -87,7 +95,7 @@
     background-image: url(../../images/Gallery/pic-9.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 500px;
+    width: 100%;
     height: 390px;
     margin-left: 10px;
 
@@ -95,7 +103,8 @@
 .lemacha{
     background-image: url(../../images/Gallery/pic-10.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 390px;
     margin-left: 10px;
   
@@ -103,7 +112,8 @@
 .kggallery{
     background-image: url(../../images/Gallery/pic-11.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 390px;
     margin-left: 10px;   
 }
@@ -111,7 +121,7 @@
     background-image: url(../../images/Gallery/pic-12.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 500px;
+    width: 100%;
     height: 390px;
     margin-left: 10px;   
 }
@@ -119,14 +129,15 @@
     background-image: url(../../images/Gallery/pic-13.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    width: 500px;
+    width: 100%;
     height: 390px;
     margin-left: 10px;  
 }
 .culture_01{
     background-image: url(../../images/Gallery/pic-14.jpg);
     background-repeat: no-repeat;
-    width: 500px;
+    background-position: center;
+    width: 100%;
     height: 390px;
     margin-left: 10px; 
 }
@@ -134,13 +145,13 @@
     background-image: url(../../images/Gallery/pic-15.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    width: 500px;
+    width: 100%;
     height:390px;
     margin-left: 10px; 
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 550px) {
     .lemcogalar{
         margin-left: 20px;
         margin-right: 10px;
@@ -162,12 +173,12 @@
     }
     
     .lemlemms{
-        width: 500px;
+        width: 100%;
         height: 390px;
     
     }
     .kglem{
-        width: 500px;
+        width: 100%;
         height: 390px;
     }
     .lemkg_1{
