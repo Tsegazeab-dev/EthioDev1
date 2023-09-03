@@ -75,7 +75,7 @@ function HomePage() {
                       education related with scientific and technological
                       development which takes the nation's demand, social and
                       cultural aspects account. We strive to produce confident
-                      and hardworking citizens
+                      and hardworking citizens.
                     </h4>
                   </li>
                   <div class="vertical-mission"></div>
