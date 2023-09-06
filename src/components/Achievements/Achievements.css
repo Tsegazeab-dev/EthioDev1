@@ -267,7 +267,7 @@ body section{
 
 }
 
-@media (max-width:300px){
+@media (max-width:350px){
     .Congratulations p{
         font-size: 90%;
     }
@@ -275,7 +275,10 @@ body section{
         font-size: 75%;
     }
     .Thumbnails {
-        display: none;
+        display: none!important;
+    }
+    .Thumbnails div {
+        display:none!important;
     }
     .Building img {
         height: auto;
